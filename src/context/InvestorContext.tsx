@@ -19,6 +19,7 @@ import {
   isIndianMarketOpen 
 } from '../services/liveMarketService';
 import { fetchLatestFiiDiiExchangeData, formatFiiDiiDate } from '../services/fiiDiiService';
+import { sha256 } from '../utils/crypto';
 
 export type DataSourceMode = 'simulator' | 'official_delayed' | 'custom_api';
 
@@ -119,7 +120,7 @@ const STORAGE_KEYS = {
   FII_DII: 'dalalpulse_fiidii_v1'
 };
 
-const DEFAULT_OWNER_PASSWORD = 'Kdhumal@1987';
+const DEFAULT_OWNER_PASSWORD_HASH = '45f023bf381e1a7d9a798b254880db1624fe48ad4d040914a408af2f5cc29b9a';
 const OWNER_RECOVERY_EMAIL = 'ketandhumal1987@gmail.com';
 
 // Cleanup old legacy caches
@@ -171,7 +172,7 @@ export const InvestorProvider: React.FC<{ children: ReactNode }> = ({ children }
   const [lastSyncTime, setLastSyncTime] = useState<string>('Live Exchange Feed');
   const [lastTick, setLastTick] = useState<LastTickInfo | null>(null);
 
-  // OWNER PERMISSION STATE (Owner Password: Kdhumal@1987)
+  // OWNER PERMISSION STATE (Protected via irreversible SHA-256 hash)
   const [isOwnerAuthenticated, setIsOwnerAuthenticated] = useState<boolean>(() => {
     try {
       return sessionStorage.getItem('dalalpulse_owner_session') === 'true';
@@ -180,12 +181,12 @@ export const InvestorProvider: React.FC<{ children: ReactNode }> = ({ children }
     }
   });
 
-  const [ownerPassword, setOwnerPassword] = useState<string>(() => {
+  const [ownerPasswordHash, setOwnerPasswordHash] = useState<string>(() => {
     try {
       const saved = localStorage.getItem(STORAGE_KEYS.OWNER_PASSWORD);
       if (saved) return saved;
     } catch {}
-    return DEFAULT_OWNER_PASSWORD;
+    return DEFAULT_OWNER_PASSWORD_HASH;
   });
 
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
@@ -642,7 +643,8 @@ export const InvestorProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const authenticateOwner = (enteredPassword: string): boolean => {
-    if (enteredPassword === ownerPassword) {
+    const enteredHash = sha256(enteredPassword);
+    if (enteredHash === ownerPasswordHash) {
       setIsOwnerAuthenticated(true);
       setViewRoleState('management_ir');
       try {
@@ -671,15 +673,17 @@ export const InvestorProvider: React.FC<{ children: ReactNode }> = ({ children }
   };
 
   const changeOwnerPassword = (oldPass: string, newPass: string) => {
-    if (oldPass !== ownerPassword) {
+    const oldHash = sha256(oldPass);
+    if (oldHash !== ownerPasswordHash) {
       return { success: false, message: 'Current password is incorrect.' };
     }
     if (newPass.length < 6) {
       return { success: false, message: 'New password must be at least 6 characters.' };
     }
-    setOwnerPassword(newPass);
+    const newHash = sha256(newPass);
+    setOwnerPasswordHash(newHash);
     try {
-      localStorage.setItem(STORAGE_KEYS.OWNER_PASSWORD, newPass);
+      localStorage.setItem(STORAGE_KEYS.OWNER_PASSWORD, newHash);
     } catch {}
     return { success: true, message: 'Owner password successfully updated!' };
   };
@@ -730,9 +734,10 @@ export const InvestorProvider: React.FC<{ children: ReactNode }> = ({ children }
       return { success: false, message: 'New password must be at least 6 characters.' };
     }
 
-    setOwnerPassword(newPass);
+    const newHash = sha256(newPass);
+    setOwnerPasswordHash(newHash);
     try {
-      localStorage.setItem(STORAGE_KEYS.OWNER_PASSWORD, newPass);
+      localStorage.setItem(STORAGE_KEYS.OWNER_PASSWORD, newHash);
     } catch {}
     setRecoveryOtp(null);
     return { success: true, message: 'Password successfully reset! You can now log in.' };
