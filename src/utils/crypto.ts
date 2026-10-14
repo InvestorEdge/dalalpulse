@@ -92,3 +92,4 @@ export function sha256(ascii: string): string {
 
   return result;
 }
+

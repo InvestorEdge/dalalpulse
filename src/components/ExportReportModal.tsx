@@ -24,7 +24,7 @@ export const ExportReportModal: React.FC = () => {
   };
 
   const handleCopyMarkdown = () => {
-    let md = `# DalalPulse - Indian Equities & Earnings Research Memo\n`;
+    let md = `# InvestorEdge - Indian Equities & Earnings Research Memo\n`;
     md += `**Date:** ${new Date().toLocaleDateString('en-IN')} | **Exchange:** NSE & BSE Coverage\n\n`;
     
     md += `### Benchmark Indices Snapshot\n`;
@@ -113,7 +113,7 @@ export const ExportReportModal: React.FC = () => {
           
           <div className="border-b border-slate-800 pb-4 flex items-center justify-between">
             <div>
-              <h3 className="font-extrabold text-lg text-white">DalalPulse Indian Equity Intelligence</h3>
+              <h3 className="font-extrabold text-lg text-white">InvestorEdge Indian Equity Intelligence</h3>
               <p className="text-xs text-slate-400">Quarterly Earnings Review & Valuation Tracker</p>
             </div>
             <div className="text-right text-xs text-slate-400">

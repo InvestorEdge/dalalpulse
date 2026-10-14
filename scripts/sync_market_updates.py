@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-DalalPulse - Daily Market & Filings Sync Script
+InvestorEdge - Daily Market & Filings Sync Script
 Fetches closing market data and institutional flows for Indian Equities.
 Run automatically by GitHub Actions every market day at 5:00 PM IST (11:30 UTC).
 """

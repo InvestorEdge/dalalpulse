@@ -700,9 +700,9 @@ export const InvestorProvider: React.FC<{ children: ReactNode }> = ({ children }
 
     // Open user's default email client prefilled with recovery verification if clicked
     try {
-      const subject = encodeURIComponent('DalalPulse Owner Password Recovery');
+      const subject = encodeURIComponent('InvestorEdge Owner Password Recovery');
       const body = encodeURIComponent(
-        `Hello Ketan,\n\nYour DalalPulse security verification code is: ${generatedOtp}\n\nThis OTP is valid for 10 minutes to reset your owner password.\n\nRegistered to: ${OWNER_RECOVERY_EMAIL}`
+        `Hello Ketan,\n\nYour InvestorEdge security verification code is: ${generatedOtp}\n\nThis OTP is valid for 10 minutes to reset your owner password.\n\nRegistered to: ${OWNER_RECOVERY_EMAIL}`
       );
       const mailtoUrl = `mailto:${OWNER_RECOVERY_EMAIL}?subject=${subject}&body=${body}`;
       const a = document.createElement('a');

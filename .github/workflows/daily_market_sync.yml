@@ -26,8 +26,8 @@ jobs:
 
       - name: Commit & Push Daily Updates (If Changed)
         run: |
-          git config --global user.name "DalalPulse Market Bot"
-          git config --global user.email "bot@dalalpulse.internal"
+          git config --global user.name "InvestorEdge Market Bot"
+          git config --global user.email "bot@investoredge.internal"
           git add -A
           if git diff --staged --quiet; then
             echo "No market data changes to commit."

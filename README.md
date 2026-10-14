@@ -1,6 +1,6 @@
-# DalalPulse — Indian Stock Market (NSE & BSE) Live Investor Relations & Earnings Hub
+# InvestorEdge — Indian Stock Market (NSE & BSE) Live Investor Relations & Earnings Hub
 
-**DalalPulse** is an institutional-grade equities intelligence platform tailored specifically for the **Indian Stock Market (NSE & BSE)** featuring **Real-Time Live Market Data Syncing**. It enables retail investors, HNIs, fund managers, and equity research analysts to track live market prices, audited quarterly earnings, management concall guidance, SEBI LODR disclosures, order books, and fundamental ratios in **₹ Crores**.
+**InvestorEdge** is an institutional-grade equities intelligence platform tailored specifically for the **Indian Stock Market (NSE & BSE)** featuring **Real-Time Live Market Data Syncing**. It enables retail investors, HNIs, fund managers, and equity research analysts to track live market prices, audited quarterly earnings, management concall guidance, SEBI LODR disclosures, order books, and fundamental ratios in **₹ Crores**.
 
 ---
 

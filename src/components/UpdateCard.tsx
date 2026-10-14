@@ -26,7 +26,7 @@ export const UpdateCard: React.FC<{ update: StockUpdate }> = ({ update }) => {
 
   const handleShare = () => {
     navigator.clipboard.writeText(
-      `DalalPulse Update: ${update.stockSymbol} (${update.period}) - ${update.title}\n\nKey Summary: ${update.summary}`
+      `InvestorEdge Update: ${update.stockSymbol} (${update.period}) - ${update.title}\n\nKey Summary: ${update.summary}`
     );
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);

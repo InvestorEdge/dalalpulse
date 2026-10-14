@@ -1,4 +1,4 @@
-name: Deploy DalalPulse to GitHub Pages
+name: Deploy InvestorEdge to GitHub Pages
 
 on:
   push:
