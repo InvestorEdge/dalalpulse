@@ -1343,10 +1343,145 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     corporateActions: [
       { id: 'ca-3001', type: 'Dividend', details: 'Dividend declared ₹30.00 per share', recordDate: '2026-07-09', amount: '₹30.00' }
     ]
+  },
+  {
+    id: 'stock-31',
+    symbol: 'BAJAJCON',
+    bseCode: '533229',
+    name: 'Bajaj Consumer Care Ltd',
+    tagline: 'Leading Indian personal care & hair oil brand with market leadership in light hair oil (Bajaj Almond Drops)',
+    sector: 'Consumer & Retail',
+    marketCapCategory: 'Small Cap',
+    exchange: 'NSE & BSE',
+    cmp: 285.50,
+    changeRs: 8.40,
+    changePct: 3.03,
+    high52w: 324.00,
+    low52w: 204.50,
+    marketCapCr: 3729,
+    peRatio: 13.2,
+    industryPe: 44.5,
+    pbRatio: 3.8,
+    roe: 22.4,
+    roce: 26.5,
+    dividendYield: 3.85,
+    debtToEquity: 0.00,
+    quarterlyRevenueCr: 332.83,
+    quarterlyPatCr: 70.15,
+    quarterlyEbitdaCr: 90.93,
+    ebitdaMarginPct: 27.3,
+    yoyPatGrowthPct: 65.89,
+    healthStatus: 'outperforming',
+    logoColor: 'from-amber-600 to-yellow-500',
+    website: 'https://bajajconsumercare.com',
+    isWatchlist: true,
+    shareholding: { promoter: 40.50, fii: 14.80, dii: 18.20, publicRetail: 26.50 },
+    quarterlyHistory: [
+      { quarter: 'Q1 FY26', revenueCr: 273.38, ebitdaCr: 55.20, patCr: 38.28, ebitdaMargin: 20.2 },
+      { quarter: 'Q2 FY26', revenueCr: 265.27, ebitdaCr: 55.26, patCr: 42.29, ebitdaMargin: 20.8 },
+      { quarter: 'Q3 FY26', revenueCr: 282.15, ebitdaCr: 60.10, patCr: 48.50, ebitdaMargin: 21.3 },
+      { quarter: 'Q4 FY26', revenueCr: 296.34, ebitdaCr: 64.80, patCr: 61.50, ebitdaMargin: 21.9 },
+      { quarter: 'Q1 FY27', revenueCr: 341.57, ebitdaCr: 91.10, patCr: 70.75, ebitdaMargin: 26.7 },
+      { quarter: 'Q2 FY27', revenueCr: 332.83, ebitdaCr: 90.93, patCr: 70.15, ebitdaMargin: 27.3 }
+    ],
+    corporateActions: [
+      { id: 'ca-3101', type: 'Dividend', details: 'Interim Dividend declared ₹3.00 per share', recordDate: '2026-08-14', amount: '₹3.00' }
+    ]
   }
 ];
 
 export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
+  {
+    id: 'upd-bajaj-q2',
+    stockId: 'stock-31',
+    stockSymbol: 'BAJAJCON',
+    stockName: 'Bajaj Consumer Care Ltd',
+    sector: 'Consumer & Retail',
+    logoColor: 'from-amber-600 to-yellow-500',
+    title: 'Q2 Net Profit Surges 65.9% YoY to ₹70.15 Cr; Revenue Climbs 25.5% to ₹332.83 Cr; PBT Up 68.7%',
+    date: '2026-10-14',
+    period: 'Q2 FY27',
+    type: 'quarterly_results',
+    summary: 'Consolidated Q2 FY27 Net Profit surged 65.89% YoY to ₹70.15 Cr (vs ₹42.29 Cr). Operating revenue expanded 25.47% YoY to ₹332.83 Cr. PBT surged 68.70% YoY to ₹86.76 Cr. H1 FY27 PAT jumped 74.88% YoY to ₹140.90 Cr with strong H1 operating cash flow of ₹112.85 Cr and over ₹526 Cr in cash and current investments.',
+    kpiSnapshot: {
+      revenueCr: 332.83,
+      yoyRevGrowthPct: 25.47,
+      ebitdaCr: 90.93,
+      ebitdaMarginPct: 27.3,
+      patCr: 70.15,
+      yoyPatGrowthPct: 65.89,
+      epsRs: 5.37
+    },
+    keyHighlights: [
+      'Consolidated Revenue from Operations grew 25.47% YoY to ₹332.83 Cr (vs ₹265.27 Cr in Q2 FY26).',
+      'Consolidated Profit After Tax (PAT) jumped 65.89% YoY to ₹70.15 Cr with Basic & Diluted EPS rising to ₹5.37 (vs ₹3.24 YoY).',
+      'Profit Before Tax (PBT) surged 68.70% YoY to ₹86.76 Cr (vs ₹51.43 Cr in Q2 FY26).',
+      'H1 FY27 Total Revenue reached ₹674.40 Cr (+25.20% YoY) and H1 PAT reached ₹140.90 Cr (+74.88% YoY; H1 EPS: ₹10.79).',
+      'NCLT Scheme of Arrangement with Vishal Personal Care Limited (VPCL) restated effectively with appointed date March 15, 2025.',
+      'Strong liquid treasury surplus exceeding ₹526 Cr (Current investments: ₹487.22 Cr, Cash & Bank balances: ₹39.75 Cr).'
+    ],
+    managementGuidance: [
+      'Accelerating distribution expansion across modern trade, e-commerce, and high-frequency chemist retail networks.',
+      'Maintaining aggressive brand investment thrust with Q2 Advertising & Sales Promotion spend at ₹41.65 Cr (12.5% of sales).',
+      'Full portfolio integration of Vishal Personal Care products unlocking nationwide cross-selling synergies.'
+    ],
+    headwindsAndRisks: [
+      'Volatility in input costs for key crude-derivative raw materials like Light Liquid Paraffin (LLP) and packaging plastics.',
+      'Monitoring rural consumption demand pace across core Hindi heartland markets.'
+    ],
+    orderWinsOrCapex: [
+      'H1 Operating Cash Flow of ₹112.85 Cr generated, providing massive liquidity for brand acquisitions and organic scaling.',
+      'Capital work-in-progress and tangible asset base expanded to ₹164.26 Cr.'
+    ],
+    filings: [
+      { title: 'Bajaj Consumer Care - Outcome of Board Meeting & Q2 FY27 Unaudited Financial Results.pdf', type: 'financial_results', size: '1.8 MB' },
+      { title: 'Bajaj Consumer Care - SEBI Reg 33 Limited Review Report (Chopra Vimal & Co).pdf', type: 'sebi_lodr', size: '640 KB' },
+      { title: 'Bajaj Consumer Care - Unaudited Statement of Assets, Liabilities & Cash Flows.pdf', type: 'financial_results', size: '920 KB' }
+    ],
+    likesCount: 188,
+    bookmarkedByInvestors: 312
+  },
+  {
+    id: 'upd-bajaj-board',
+    stockId: 'stock-31',
+    stockSymbol: 'BAJAJCON',
+    stockName: 'Bajaj Consumer Care Ltd',
+    sector: 'Consumer & Retail',
+    logoColor: 'from-amber-600 to-yellow-500',
+    title: 'Board Appoints FMCG Veteran Jitendra Mahajan as Independent Director; K.S. Narayanan Resigns',
+    date: '2026-10-14',
+    period: 'Q2 FY27',
+    type: 'management_change',
+    summary: 'Under SEBI LODR Regulation 30, Board appoints Mr. Jitendra Ananda Mahajan (30+ years FMCG leadership at Diageo India, Marico, Britannia) as Additional Independent Director for a 5-year term. Mr. K.S. Narayanan steps down from the Board, Audit Committee, and Stakeholders Relationship Committee due to personal medical reasons and professional commitments.',
+    kpiSnapshot: {
+      revenueCr: 332.83,
+      yoyRevGrowthPct: 25.47,
+      ebitdaCr: 90.93,
+      ebitdaMarginPct: 27.3,
+      patCr: 70.15,
+      yoyPatGrowthPct: 65.89,
+      epsRs: 5.37
+    },
+    keyHighlights: [
+      'Mr. Jitendra Mahajan brings over three decades of consumer leadership spanning P&L, supply chain, and digital transformation across >$1B consumer brands.',
+      'Five-year appointment effective October 14, 2026, subject to shareholder approval.',
+      'Mr. K.S. Narayanan confirms no material reasons for resignation other than personal medical reasons and professional commitments.'
+    ],
+    managementGuidance: [
+      'Mr. Mahajan to contribute towards long-term corporate governance, supply chain digital enablement, and margin optimization.'
+    ],
+    headwindsAndRisks: [
+      'Transition in Audit Committee and Stakeholders Relationship Committee responsibilities.'
+    ],
+    orderWinsOrCapex: [
+      'Nomination, Remuneration and Corporate Governance Committee unanimously endorsed the leadership transition.'
+    ],
+    filings: [
+      { title: 'Bajaj Consumer Care - SEBI Reg 30 Board Reconstitution & Profile Disclosures.pdf', type: 'sebi_lodr', size: '480 KB' }
+    ],
+    likesCount: 94,
+    bookmarkedByInvestors: 145
+  },
   {
     id: 'upd-1',
     stockId: 'stock-3',
