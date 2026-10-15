@@ -109,8 +109,8 @@ interface InvestorContextType {
 const InvestorContext = createContext<InvestorContextType | undefined>(undefined);
 
 const STORAGE_KEYS = {
-  STOCKS: 'investoredge_stocks_v12',
-  UPDATES: 'investoredge_updates_v12',
+  STOCKS: 'investoredge_stocks_v13',
+  UPDATES: 'investoredge_updates_v13',
   ROLE: 'dalalpulse_role_v5',
   API_KEY: 'dalalpulse_apikey_v5',
   DATA_MODE: 'dalalpulse_datamode_v5',
@@ -125,8 +125,8 @@ const OWNER_RECOVERY_EMAIL = 'ketandhumal1987@gmail.com';
 
 // Cleanup old legacy caches
 try {
-  ['dalalpulse_stocks_v1', 'dalalpulse_stocks_v2', 'dalalpulse_stocks_v3', 'dalalpulse_stocks_v4', 'dalalpulse_stocks_v5', 'dalalpulse_stocks_v6', 'dalalpulse_stocks_v7', 'dalalpulse_stocks_v8', 'investoredge_stocks_v9', 'investoredge_stocks_v10',
-   'dalalpulse_updates_v1', 'dalalpulse_updates_v2', 'dalalpulse_updates_v3', 'dalalpulse_updates_v4', 'dalalpulse_updates_v5', 'dalalpulse_updates_v6', 'dalalpulse_updates_v7', 'dalalpulse_updates_v8', 'investoredge_updates_v9', 'investoredge_updates_v10',
+  ['dalalpulse_stocks_v1', 'dalalpulse_stocks_v2', 'dalalpulse_stocks_v3', 'dalalpulse_stocks_v4', 'dalalpulse_stocks_v5', 'dalalpulse_stocks_v6', 'dalalpulse_stocks_v7', 'dalalpulse_stocks_v8', 'investoredge_stocks_v9', 'investoredge_stocks_v10', 'investoredge_stocks_v11', 'investoredge_stocks_v12',
+   'dalalpulse_updates_v1', 'dalalpulse_updates_v2', 'dalalpulse_updates_v3', 'dalalpulse_updates_v4', 'dalalpulse_updates_v5', 'dalalpulse_updates_v6', 'dalalpulse_updates_v7', 'dalalpulse_updates_v8', 'investoredge_updates_v9', 'investoredge_updates_v10', 'investoredge_updates_v11', 'investoredge_updates_v12',
    'dalalpulse_datamode_v1', 'dalalpulse_datamode_v2', 'dalalpulse_datamode_v3',
    'dalalpulse_owner_pin_v5',
    'dalalpulse_owner_auth_v1', 'dalalpulse_owner_auth_v2', 'dalalpulse_owner_auth_v3', 'dalalpulse_owner_auth_v4', 'dalalpulse_owner_auth_v5', 'dalalpulse_owner_auth_v6'].forEach(k => {
