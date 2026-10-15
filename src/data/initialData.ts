@@ -11,93 +11,85 @@ export const INDIAN_MARKET_INDICES: MarketIndex[] = [
 
 export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
   {
-    "id": "stock-fredun",
-    "symbol": "FREDUN",
-    "bseCode": "539730",
-    "name": "Fredun Pharmaceuticals Ltd",
-    "tagline": "Fast-growing Indian pharma formulations and animal healthcare exporter across Southeast Asia, Africa, and CIS",
-    "sector": "Pharmaceuticals & Healthcare",
+    "id": "stock-skygold",
+    "symbol": "SKYGOLD",
+    "bseCode": "541967",
+    "name": "Sky Gold and Diamonds Ltd",
+    "tagline": "Premier B2B designer & manufacturer of lightweight 18K/22K gold & studded diamond jewellery for top retail chains (Malabar, Kalyan, Senco)",
+    "sector": "Consumer & Retail",
     "marketCapCategory": "Small Cap",
-    "exchange": "BSE",
-    "cmp": 1509.65,
-    "changeRs": 12.4,
-    "changePct": 0.83,
-    "high52w": 1666.35,
-    "low52w": 454.05,
-    "marketCapCr": 852,
-    "peRatio": 32.4,
-    "industryPe": 38.5,
-    "pbRatio": 5.6,
-    "roe": 21.2,
-    "roce": 24.8,
-    "dividendYield": 0.25,
-    "debtToEquity": 0.35,
-    "quarterlyRevenueCr": 88.4,
-    "quarterlyPatCr": 7.95,
-    "quarterlyEbitdaCr": 13.2,
-    "ebitdaMarginPct": 14.9,
-    "yoyPatGrowthPct": 48.2,
+    "exchange": "NSE & BSE",
+    "cmp": 1001.3,
+    "changeRs": 33.6,
+    "changePct": 3.47,
+    "high52w": 1004.95,
+    "low52w": 285,
+    "marketCapCr": 4120,
+    "peRatio": 38.6,
+    "industryPe": 45.2,
+    "pbRatio": 6.8,
+    "roe": 27.2,
+    "roce": 29.5,
+    "dividendYield": 0.3,
+    "debtToEquity": 0.45,
+    "quarterlyRevenueCr": 723.1,
+    "quarterlyPatCr": 21.3,
+    "quarterlyEbitdaCr": 37.2,
+    "ebitdaMarginPct": 5.14,
+    "yoyPatGrowthPct": 100.9,
     "healthStatus": "high_growth",
-    "logoColor": "from-teal-500 to-emerald-700",
-    "website": "https://fredungroup.com",
+    "logoColor": "from-amber-400 to-yellow-600",
+    "website": "https://skygold.co.in",
     "isWatchlist": true,
     "shareholding": {
-      "promoter": 52.4,
-      "fii": 4.8,
-      "dii": 6.2,
-      "publicRetail": 36.6
+      "promoter": 60.5,
+      "fii": 14.2,
+      "dii": 11.4,
+      "publicRetail": 13.9
     },
     "quarterlyHistory": [
       {
-        "quarter": "Q1 FY26",
-        "revenueCr": 58.2,
-        "ebitdaCr": 8.1,
-        "patCr": 4.8,
-        "ebitdaMargin": 13.9
+        "quarter": "Q1 FY24",
+        "revenueCr": 375.8,
+        "ebitdaCr": 18.2,
+        "patCr": 10.6,
+        "ebitdaMargin": 4.8
       },
       {
-        "quarter": "Q2 FY26",
-        "revenueCr": 62.4,
-        "ebitdaCr": 8.9,
-        "patCr": 5.36,
-        "ebitdaMargin": 14.3
+        "quarter": "Q2 FY24",
+        "revenueCr": 396.4,
+        "ebitdaCr": 21.1,
+        "patCr": 12.4,
+        "ebitdaMargin": 5.3
       },
       {
-        "quarter": "Q3 FY26",
-        "revenueCr": 69.1,
-        "ebitdaCr": 10.2,
-        "patCr": 6.1,
-        "ebitdaMargin": 14.8
+        "quarter": "Q3 FY24",
+        "revenueCr": 460.2,
+        "ebitdaCr": 26.5,
+        "patCr": 16.1,
+        "ebitdaMargin": 5.8
       },
       {
-        "quarter": "Q4 FY26",
-        "revenueCr": 76.5,
-        "ebitdaCr": 11.4,
-        "patCr": 6.9,
-        "ebitdaMargin": 14.9
+        "quarter": "Q4 FY24",
+        "revenueCr": 513.5,
+        "ebitdaCr": 31.8,
+        "patCr": 21.2,
+        "ebitdaMargin": 6.2
       },
       {
-        "quarter": "Q1 FY27",
-        "revenueCr": 81.2,
-        "ebitdaCr": 12.1,
-        "patCr": 7.2,
-        "ebitdaMargin": 14.9
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 88.4,
-        "ebitdaCr": 13.2,
-        "patCr": 7.95,
-        "ebitdaMargin": 14.9
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 723.1,
+        "ebitdaCr": 37.2,
+        "patCr": 21.3,
+        "ebitdaMargin": 5.14
       }
     ],
     "corporateActions": [
       {
-        "id": "ca-fredun-1",
-        "type": "Dividend",
-        "details": "Final Dividend declared ₹1.50 per share",
-        "recordDate": "2026-09-18",
-        "amount": "₹1.50"
+        "id": "ca-skygold-1",
+        "type": "Bonus",
+        "details": "Board approved 9:1 Bonus Issue (9 bonus shares for every 1 share held)",
+        "recordDate": "2024-10-07"
       }
     ]
   },
@@ -123,11 +115,11 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     "roce": 18.6,
     "dividendYield": 0.35,
     "debtToEquity": 0.08,
-    "quarterlyRevenueCr": 214.5,
-    "quarterlyPatCr": 32.8,
-    "quarterlyEbitdaCr": 56.2,
-    "ebitdaMarginPct": 26.2,
-    "yoyPatGrowthPct": 36.5,
+    "quarterlyRevenueCr": 211.8,
+    "quarterlyPatCr": 30.4,
+    "quarterlyEbitdaCr": 54.6,
+    "ebitdaMarginPct": 25.8,
+    "yoyPatGrowthPct": 60,
     "healthStatus": "outperforming",
     "logoColor": "from-blue-600 to-indigo-800",
     "website": "https://yatharthhospitals.com",
@@ -140,145 +132,47 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     },
     "quarterlyHistory": [
       {
-        "quarter": "Q1 FY26",
-        "revenueCr": 145.2,
-        "ebitdaCr": 37.1,
-        "patCr": 21.8,
-        "ebitdaMargin": 25.5
+        "quarter": "Q1 FY24",
+        "revenueCr": 154.5,
+        "ebitdaCr": 38.2,
+        "patCr": 19,
+        "ebitdaMargin": 24.7
       },
       {
-        "quarter": "Q2 FY26",
-        "revenueCr": 158.4,
-        "ebitdaCr": 41.2,
-        "patCr": 24.02,
-        "ebitdaMargin": 26
+        "quarter": "Q2 FY24",
+        "revenueCr": 171.3,
+        "ebitdaCr": 45.1,
+        "patCr": 27.6,
+        "ebitdaMargin": 26.3
       },
       {
-        "quarter": "Q3 FY26",
-        "revenueCr": 169.8,
-        "ebitdaCr": 44.5,
-        "patCr": 26.3,
-        "ebitdaMargin": 26.2
+        "quarter": "Q3 FY24",
+        "revenueCr": 166.8,
+        "ebitdaCr": 43.8,
+        "patCr": 26.1,
+        "ebitdaMargin": 26.3
       },
       {
-        "quarter": "Q4 FY26",
-        "revenueCr": 184.5,
-        "ebitdaCr": 48.2,
-        "patCr": 28.9,
-        "ebitdaMargin": 26.1
+        "quarter": "Q4 FY24",
+        "revenueCr": 177.6,
+        "ebitdaCr": 47.9,
+        "patCr": 38.3,
+        "ebitdaMargin": 27
       },
       {
-        "quarter": "Q1 FY27",
-        "revenueCr": 198.1,
-        "ebitdaCr": 51.6,
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 211.8,
+        "ebitdaCr": 54.6,
         "patCr": 30.4,
-        "ebitdaMargin": 26
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 214.5,
-        "ebitdaCr": 56.2,
-        "patCr": 32.8,
-        "ebitdaMargin": 26.2
+        "ebitdaMargin": 25.8
       }
     ],
     "corporateActions": [
       {
         "id": "ca-yatharth-1",
         "type": "AGM / EGM",
-        "details": "EGM approves acquisition of 250-bed multi-specialty hospital in Faridabad",
-        "recordDate": "2026-08-22"
-      }
-    ]
-  },
-  {
-    "id": "stock-sudeep",
-    "symbol": "SUDEEPPHRM",
-    "bseCode": "543888",
-    "name": "Sudeep Pharma Ltd",
-    "tagline": "Global pioneer in calcium, iron & mineral-based active pharmaceutical ingredients and specialty excipients",
-    "sector": "Pharmaceuticals & Healthcare",
-    "marketCapCategory": "Small Cap",
-    "exchange": "BSE",
-    "cmp": 1059.8,
-    "changeRs": 3.05,
-    "changePct": 0.29,
-    "high52w": 1376,
-    "low52w": 524.95,
-    "marketCapCr": 2150,
-    "peRatio": 28.5,
-    "industryPe": 34.2,
-    "pbRatio": 4.1,
-    "roe": 19.5,
-    "roce": 22.1,
-    "dividendYield": 0.5,
-    "debtToEquity": 0.18,
-    "quarterlyRevenueCr": 142.6,
-    "quarterlyPatCr": 18.4,
-    "quarterlyEbitdaCr": 31.8,
-    "ebitdaMarginPct": 22.3,
-    "yoyPatGrowthPct": 41.8,
-    "healthStatus": "outperforming",
-    "logoColor": "from-cyan-600 to-blue-700",
-    "website": "https://sudeepgroup.com",
-    "isWatchlist": true,
-    "shareholding": {
-      "promoter": 71.2,
-      "fii": 6.4,
-      "dii": 8.5,
-      "publicRetail": 13.9
-    },
-    "quarterlyHistory": [
-      {
-        "quarter": "Q1 FY26",
-        "revenueCr": 94.5,
-        "ebitdaCr": 19.8,
-        "patCr": 11.2,
-        "ebitdaMargin": 20.9
-      },
-      {
-        "quarter": "Q2 FY26",
-        "revenueCr": 102.8,
-        "ebitdaCr": 22.4,
-        "patCr": 12.98,
-        "ebitdaMargin": 21.8
-      },
-      {
-        "quarter": "Q3 FY26",
-        "revenueCr": 114.2,
-        "ebitdaCr": 25.1,
-        "patCr": 14.6,
-        "ebitdaMargin": 22
-      },
-      {
-        "quarter": "Q4 FY26",
-        "revenueCr": 126.8,
-        "ebitdaCr": 28,
-        "patCr": 16.2,
-        "ebitdaMargin": 22.1
-      },
-      {
-        "quarter": "Q1 FY27",
-        "revenueCr": 133.5,
-        "ebitdaCr": 29.6,
-        "patCr": 17.1,
-        "ebitdaMargin": 22.2
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 142.6,
-        "ebitdaCr": 31.8,
-        "patCr": 18.4,
-        "ebitdaMargin": 22.3
-      }
-    ],
-    "corporateActions": [
-      {
-        "id": "ca-sudeep-1",
-        "type": "Dividend",
-        "details": "Interim Dividend ₹2.50 per share declared",
-        "recordDate": "2026-09-05",
-        "amount": "₹2.50"
+        "details": "Acquisition of 250-bed multi-specialty hospital in Faridabad completed",
+        "recordDate": "2024-08-22"
       }
     ]
   },
@@ -304,12 +198,12 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     "roce": 23.4,
     "dividendYield": 0.65,
     "debtToEquity": 0.12,
-    "quarterlyRevenueCr": 1890.4,
-    "quarterlyPatCr": 98.6,
-    "quarterlyEbitdaCr": 152.8,
-    "ebitdaMarginPct": 8.1,
-    "yoyPatGrowthPct": 32.4,
-    "healthStatus": "outperforming",
+    "quarterlyRevenueCr": 1807.5,
+    "quarterlyPatCr": 64.4,
+    "quarterlyEbitdaCr": 103.2,
+    "ebitdaMarginPct": 5.7,
+    "yoyPatGrowthPct": -13.3,
+    "healthStatus": "in_line",
     "logoColor": "from-red-600 to-amber-700",
     "website": "https://rrkabel.com",
     "isWatchlist": true,
@@ -321,46 +215,39 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     },
     "quarterlyHistory": [
       {
-        "quarter": "Q1 FY26",
-        "revenueCr": 1390.2,
-        "ebitdaCr": 104.5,
-        "patCr": 68.2,
+        "quarter": "Q1 FY24",
+        "revenueCr": 1597.1,
+        "ebitdaCr": 114.2,
+        "patCr": 74.3,
+        "ebitdaMargin": 7.2
+      },
+      {
+        "quarter": "Q2 FY24",
+        "revenueCr": 1609.8,
+        "ebitdaCr": 121.5,
+        "patCr": 74.1,
         "ebitdaMargin": 7.5
       },
       {
-        "quarter": "Q2 FY26",
-        "revenueCr": 1495.6,
-        "ebitdaCr": 118.2,
-        "patCr": 74.47,
+        "quarter": "Q3 FY24",
+        "revenueCr": 1633.7,
+        "ebitdaCr": 112.8,
+        "patCr": 71,
+        "ebitdaMargin": 6.9
+      },
+      {
+        "quarter": "Q4 FY24",
+        "revenueCr": 1754.2,
+        "ebitdaCr": 138.4,
+        "patCr": 78.7,
         "ebitdaMargin": 7.9
       },
       {
-        "quarter": "Q3 FY26",
-        "revenueCr": 1610.4,
-        "ebitdaCr": 129.5,
-        "patCr": 82.3,
-        "ebitdaMargin": 8
-      },
-      {
-        "quarter": "Q4 FY26",
-        "revenueCr": 1754.2,
-        "ebitdaCr": 142.1,
-        "patCr": 91.2,
-        "ebitdaMargin": 8.1
-      },
-      {
-        "quarter": "Q1 FY27",
-        "revenueCr": 1795.8,
-        "ebitdaCr": 144.8,
-        "patCr": 92.5,
-        "ebitdaMargin": 8.1
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 1890.4,
-        "ebitdaCr": 152.8,
-        "patCr": 98.6,
-        "ebitdaMargin": 8.1
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 1807.5,
+        "ebitdaCr": 103.2,
+        "patCr": 64.4,
+        "ebitdaMargin": 5.7
       }
     ],
     "corporateActions": [
@@ -368,98 +255,8 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
         "id": "ca-rrkabel-1",
         "type": "Dividend",
         "details": "Dividend declared ₹6.00 per share",
-        "recordDate": "2026-08-10",
+        "recordDate": "2024-08-10",
         "amount": "₹6.00"
-      }
-    ]
-  },
-  {
-    "id": "stock-skygold",
-    "symbol": "SKYGOLD",
-    "bseCode": "541967",
-    "name": "Sky Gold and Diamonds Ltd",
-    "tagline": "Premier B2B designer and manufacturer of lightweight 18K/22K gold & studded diamond jewellery for top retail chains",
-    "sector": "Consumer & Retail",
-    "marketCapCategory": "Small Cap",
-    "exchange": "NSE & BSE",
-    "cmp": 1001.3,
-    "changeRs": 33.6,
-    "changePct": 3.47,
-    "high52w": 1004.95,
-    "low52w": 285,
-    "marketCapCr": 4120,
-    "peRatio": 38.6,
-    "industryPe": 45.2,
-    "pbRatio": 6.8,
-    "roe": 27.2,
-    "roce": 29.5,
-    "dividendYield": 0.3,
-    "debtToEquity": 0.45,
-    "quarterlyRevenueCr": 680.5,
-    "quarterlyPatCr": 38.2,
-    "quarterlyEbitdaCr": 54.8,
-    "ebitdaMarginPct": 8.1,
-    "yoyPatGrowthPct": 96.4,
-    "healthStatus": "high_growth",
-    "logoColor": "from-amber-400 to-yellow-600",
-    "website": "https://skygold.co.in",
-    "isWatchlist": true,
-    "shareholding": {
-      "promoter": 60.5,
-      "fii": 14.2,
-      "dii": 11.4,
-      "publicRetail": 13.9
-    },
-    "quarterlyHistory": [
-      {
-        "quarter": "Q1 FY26",
-        "revenueCr": 320.4,
-        "ebitdaCr": 24.1,
-        "patCr": 16.5,
-        "ebitdaMargin": 7.5
-      },
-      {
-        "quarter": "Q2 FY26",
-        "revenueCr": 355.2,
-        "ebitdaCr": 27.8,
-        "patCr": 19.45,
-        "ebitdaMargin": 7.8
-      },
-      {
-        "quarter": "Q3 FY26",
-        "revenueCr": 440.8,
-        "ebitdaCr": 35.2,
-        "patCr": 24.8,
-        "ebitdaMargin": 8
-      },
-      {
-        "quarter": "Q4 FY26",
-        "revenueCr": 512.6,
-        "ebitdaCr": 41.5,
-        "patCr": 29.2,
-        "ebitdaMargin": 8.1
-      },
-      {
-        "quarter": "Q1 FY27",
-        "revenueCr": 595.4,
-        "ebitdaCr": 47.9,
-        "patCr": 33.6,
-        "ebitdaMargin": 8
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 680.5,
-        "ebitdaCr": 54.8,
-        "patCr": 38.2,
-        "ebitdaMargin": 8.1
-      }
-    ],
-    "corporateActions": [
-      {
-        "id": "ca-skygold-1",
-        "type": "Bonus",
-        "details": "Bonus Issue 9:1 approved by board",
-        "recordDate": "2026-09-26"
       }
     ]
   },
@@ -485,11 +282,11 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     "roce": 24.6,
     "dividendYield": 0.25,
     "debtToEquity": 0.15,
-    "quarterlyRevenueCr": 1240.8,
-    "quarterlyPatCr": 148.5,
-    "quarterlyEbitdaCr": 218.4,
-    "ebitdaMarginPct": 17.6,
-    "yoyPatGrowthPct": 42.1,
+    "quarterlyRevenueCr": 1200.5,
+    "quarterlyPatCr": 122.9,
+    "quarterlyEbitdaCr": 192.6,
+    "ebitdaMarginPct": 16,
+    "yoyPatGrowthPct": 42.6,
     "healthStatus": "outperforming",
     "logoColor": "from-indigo-600 to-purple-800",
     "website": "https://himadri.com",
@@ -502,54 +299,131 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     },
     "quarterlyHistory": [
       {
-        "quarter": "Q1 FY26",
-        "revenueCr": 885.2,
-        "ebitdaCr": 139.8,
-        "patCr": 94.2,
-        "ebitdaMargin": 15.8
+        "quarter": "Q1 FY24",
+        "revenueCr": 958,
+        "ebitdaCr": 134.5,
+        "patCr": 86.2,
+        "ebitdaMargin": 14
       },
       {
-        "quarter": "Q2 FY26",
-        "revenueCr": 978.4,
-        "ebitdaCr": 161.4,
-        "patCr": 104.5,
-        "ebitdaMargin": 16.5
+        "quarter": "Q2 FY24",
+        "revenueCr": 1004.8,
+        "ebitdaCr": 158.2,
+        "patCr": 100.6,
+        "ebitdaMargin": 15.7
       },
       {
-        "quarter": "Q3 FY26",
+        "quarter": "Q3 FY24",
         "revenueCr": 1052.1,
-        "ebitdaCr": 179.2,
-        "patCr": 119.8,
-        "ebitdaMargin": 17
+        "ebitdaCr": 168.4,
+        "patCr": 108.8,
+        "ebitdaMargin": 16
       },
       {
-        "quarter": "Q4 FY26",
-        "revenueCr": 1145.6,
-        "ebitdaCr": 198.5,
-        "patCr": 134.1,
-        "ebitdaMargin": 17.3
+        "quarter": "Q4 FY24",
+        "revenueCr": 1177.3,
+        "ebitdaCr": 184.2,
+        "patCr": 115.3,
+        "ebitdaMargin": 15.6
       },
       {
-        "quarter": "Q1 FY27",
-        "revenueCr": 1188.4,
-        "ebitdaCr": 206.8,
-        "patCr": 141.2,
-        "ebitdaMargin": 17.4
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 1240.8,
-        "ebitdaCr": 218.4,
-        "patCr": 148.5,
-        "ebitdaMargin": 17.6
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 1200.5,
+        "ebitdaCr": 192.6,
+        "patCr": 122.9,
+        "ebitdaMargin": 16
       }
     ],
     "corporateActions": [
       {
         "id": "ca-hscl-1",
         "type": "AGM / EGM",
-        "details": "AGM approves commercial capitalization of Phase 1 Synthetic Anode plant",
-        "recordDate": "2026-09-12"
+        "details": "Commercial trials of 20,000 MTPA Synthetic Anode plant initiated in Odisha",
+        "recordDate": "2024-09-12"
+      }
+    ]
+  },
+  {
+    "id": "stock-fredun",
+    "symbol": "FREDUN",
+    "bseCode": "539730",
+    "name": "Fredun Pharmaceuticals Ltd",
+    "tagline": "Fast-growing Indian pharma formulations and animal healthcare exporter across Southeast Asia, Africa, and CIS",
+    "sector": "Pharmaceuticals & Healthcare",
+    "marketCapCategory": "Small Cap",
+    "exchange": "BSE",
+    "cmp": 1509.65,
+    "changeRs": 12.4,
+    "changePct": 0.83,
+    "high52w": 1666.35,
+    "low52w": 454.05,
+    "marketCapCr": 852,
+    "peRatio": 32.4,
+    "industryPe": 38.5,
+    "pbRatio": 5.6,
+    "roe": 21.2,
+    "roce": 24.8,
+    "dividendYield": 0.25,
+    "debtToEquity": 0.35,
+    "quarterlyRevenueCr": 84.6,
+    "quarterlyPatCr": 6.8,
+    "quarterlyEbitdaCr": 11.8,
+    "ebitdaMarginPct": 13.9,
+    "yoyPatGrowthPct": 51.1,
+    "healthStatus": "high_growth",
+    "logoColor": "from-teal-500 to-emerald-700",
+    "website": "https://fredungroup.com",
+    "isWatchlist": true,
+    "shareholding": {
+      "promoter": 52.4,
+      "fii": 4.8,
+      "dii": 6.2,
+      "publicRetail": 36.6
+    },
+    "quarterlyHistory": [
+      {
+        "quarter": "Q1 FY24",
+        "revenueCr": 61.2,
+        "ebitdaCr": 7.8,
+        "patCr": 4.5,
+        "ebitdaMargin": 12.7
+      },
+      {
+        "quarter": "Q2 FY24",
+        "revenueCr": 65.4,
+        "ebitdaCr": 8.5,
+        "patCr": 5.1,
+        "ebitdaMargin": 13
+      },
+      {
+        "quarter": "Q3 FY24",
+        "revenueCr": 71.8,
+        "ebitdaCr": 9.6,
+        "patCr": 5.8,
+        "ebitdaMargin": 13.4
+      },
+      {
+        "quarter": "Q4 FY24",
+        "revenueCr": 78.2,
+        "ebitdaCr": 10.9,
+        "patCr": 6.4,
+        "ebitdaMargin": 13.9
+      },
+      {
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 84.6,
+        "ebitdaCr": 11.8,
+        "patCr": 6.8,
+        "ebitdaMargin": 13.9
+      }
+    ],
+    "corporateActions": [
+      {
+        "id": "ca-fredun-1",
+        "type": "Dividend",
+        "details": "Dividend declared ₹1.50 per share",
+        "recordDate": "2024-09-18",
+        "amount": "₹1.50"
       }
     ]
   },
@@ -575,11 +449,11 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     "roce": 28.4,
     "dividendYield": 0.4,
     "debtToEquity": 0.05,
-    "quarterlyRevenueCr": 138.2,
-    "quarterlyPatCr": 16.4,
-    "quarterlyEbitdaCr": 24.1,
-    "ebitdaMarginPct": 17.4,
-    "yoyPatGrowthPct": 68.4,
+    "quarterlyRevenueCr": 126.4,
+    "quarterlyPatCr": 12.2,
+    "quarterlyEbitdaCr": 18.9,
+    "ebitdaMarginPct": 15,
+    "yoyPatGrowthPct": 79.4,
     "healthStatus": "high_growth",
     "logoColor": "from-slate-700 to-slate-900",
     "website": "https://timexindia.com",
@@ -592,46 +466,39 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     },
     "quarterlyHistory": [
       {
-        "quarter": "Q1 FY26",
-        "revenueCr": 82.4,
-        "ebitdaCr": 11.5,
-        "patCr": 7.2,
+        "quarter": "Q1 FY24",
+        "revenueCr": 94.8,
+        "ebitdaCr": 11.2,
+        "patCr": 6.8,
+        "ebitdaMargin": 11.8
+      },
+      {
+        "quarter": "Q2 FY24",
+        "revenueCr": 104.5,
+        "ebitdaCr": 13.9,
+        "patCr": 8.5,
+        "ebitdaMargin": 13.3
+      },
+      {
+        "quarter": "Q3 FY24",
+        "revenueCr": 118.2,
+        "ebitdaCr": 16.5,
+        "patCr": 10.4,
         "ebitdaMargin": 14
       },
       {
-        "quarter": "Q2 FY26",
-        "revenueCr": 91.2,
-        "ebitdaCr": 13.8,
-        "patCr": 9.74,
-        "ebitdaMargin": 15.1
+        "quarter": "Q4 FY24",
+        "revenueCr": 112.4,
+        "ebitdaCr": 15.1,
+        "patCr": 9.6,
+        "ebitdaMargin": 13.4
       },
       {
-        "quarter": "Q3 FY26",
-        "revenueCr": 108.5,
-        "ebitdaCr": 17.9,
-        "patCr": 12.4,
-        "ebitdaMargin": 16.5
-      },
-      {
-        "quarter": "Q4 FY26",
-        "revenueCr": 118.4,
-        "ebitdaCr": 20.1,
-        "patCr": 13.9,
-        "ebitdaMargin": 17
-      },
-      {
-        "quarter": "Q1 FY27",
-        "revenueCr": 124.6,
-        "ebitdaCr": 21.4,
-        "patCr": 14.8,
-        "ebitdaMargin": 17.2
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 138.2,
-        "ebitdaCr": 24.1,
-        "patCr": 16.4,
-        "ebitdaMargin": 17.4
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 126.4,
+        "ebitdaCr": 18.9,
+        "patCr": 12.2,
+        "ebitdaMargin": 15
       }
     ],
     "corporateActions": [
@@ -639,98 +506,8 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
         "id": "ca-timex-1",
         "type": "Dividend",
         "details": "Dividend ₹2.00 per share approved",
-        "recordDate": "2026-08-28",
+        "recordDate": "2024-08-28",
         "amount": "₹2.00"
-      }
-    ]
-  },
-  {
-    "id": "stock-hexagon",
-    "symbol": "HEXAGON",
-    "bseCode": "543444",
-    "name": "Hexagon Nutrition Ltd",
-    "tagline": "Research-oriented nutrition leader delivering clinical feeds, therapeutic nutrition, and micronutrient fortification premixes",
-    "sector": "Pharmaceuticals & Healthcare",
-    "marketCapCategory": "Micro Cap",
-    "exchange": "BSE",
-    "cmp": 71.88,
-    "changeRs": 0.56,
-    "changePct": 0.79,
-    "high52w": 78.69,
-    "low52w": 48,
-    "marketCapCr": 485,
-    "peRatio": 21.4,
-    "industryPe": 35.8,
-    "pbRatio": 2.6,
-    "roe": 14.5,
-    "roce": 16.8,
-    "dividendYield": 0.85,
-    "debtToEquity": 0.22,
-    "quarterlyRevenueCr": 54.2,
-    "quarterlyPatCr": 5.6,
-    "quarterlyEbitdaCr": 8.4,
-    "ebitdaMarginPct": 15.5,
-    "yoyPatGrowthPct": 28.4,
-    "healthStatus": "in_line",
-    "logoColor": "from-emerald-600 to-green-700",
-    "website": "https://hexagonnutrition.com",
-    "isWatchlist": true,
-    "shareholding": {
-      "promoter": 68.4,
-      "fii": 3.2,
-      "dii": 5.8,
-      "publicRetail": 22.6
-    },
-    "quarterlyHistory": [
-      {
-        "quarter": "Q1 FY26",
-        "revenueCr": 38.5,
-        "ebitdaCr": 5.4,
-        "patCr": 3.8,
-        "ebitdaMargin": 14
-      },
-      {
-        "quarter": "Q2 FY26",
-        "revenueCr": 42.1,
-        "ebitdaCr": 6.2,
-        "patCr": 4.36,
-        "ebitdaMargin": 14.7
-      },
-      {
-        "quarter": "Q3 FY26",
-        "revenueCr": 46.8,
-        "ebitdaCr": 7.1,
-        "patCr": 4.8,
-        "ebitdaMargin": 15.2
-      },
-      {
-        "quarter": "Q4 FY26",
-        "revenueCr": 49.5,
-        "ebitdaCr": 7.6,
-        "patCr": 5.1,
-        "ebitdaMargin": 15.4
-      },
-      {
-        "quarter": "Q1 FY27",
-        "revenueCr": 51.4,
-        "ebitdaCr": 7.9,
-        "patCr": 5.3,
-        "ebitdaMargin": 15.4
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 54.2,
-        "ebitdaCr": 8.4,
-        "patCr": 5.6,
-        "ebitdaMargin": 15.5
-      }
-    ],
-    "corporateActions": [
-      {
-        "id": "ca-hex-1",
-        "type": "AGM / EGM",
-        "details": "AGM approves institutional supply contract execution with State Health Department",
-        "recordDate": "2026-09-02"
       }
     ]
   },
@@ -756,11 +533,11 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     "roce": 32.5,
     "dividendYield": 0.2,
     "debtToEquity": 0.08,
-    "quarterlyRevenueCr": 62.4,
-    "quarterlyPatCr": 11.2,
-    "quarterlyEbitdaCr": 16.8,
-    "ebitdaMarginPct": 26.9,
-    "yoyPatGrowthPct": 84.5,
+    "quarterlyRevenueCr": 52.4,
+    "quarterlyPatCr": 10.15,
+    "quarterlyEbitdaCr": 14.8,
+    "ebitdaMarginPct": 28.2,
+    "yoyPatGrowthPct": 72,
     "orderBookCr": 485,
     "healthStatus": "high_growth",
     "logoColor": "from-blue-700 to-slate-900",
@@ -774,54 +551,200 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
     },
     "quarterlyHistory": [
       {
-        "quarter": "Q1 FY26",
-        "revenueCr": 28.4,
-        "ebitdaCr": 6.8,
-        "patCr": 4.5,
-        "ebitdaMargin": 23.9
+        "quarter": "H1 FY24",
+        "revenueCr": 38.2,
+        "ebitdaCr": 9.8,
+        "patCr": 6.4,
+        "ebitdaMargin": 25.7
       },
       {
-        "quarter": "Q2 FY26",
-        "revenueCr": 33.8,
-        "ebitdaCr": 8.5,
-        "patCr": 6.07,
-        "ebitdaMargin": 25.1
+        "quarter": "H2 FY24",
+        "revenueCr": 54.6,
+        "ebitdaCr": 15.1,
+        "patCr": 10.8,
+        "ebitdaMargin": 27.7
       },
       {
-        "quarter": "Q3 FY26",
-        "revenueCr": 42.6,
-        "ebitdaCr": 11.2,
-        "patCr": 7.9,
-        "ebitdaMargin": 26.3
-      },
-      {
-        "quarter": "Q4 FY26",
-        "revenueCr": 51.5,
-        "ebitdaCr": 13.8,
-        "patCr": 9.4,
-        "ebitdaMargin": 26.8
-      },
-      {
-        "quarter": "Q1 FY27",
-        "revenueCr": 56.8,
-        "ebitdaCr": 15.2,
-        "patCr": 10.1,
-        "ebitdaMargin": 26.8
-      },
-      {
-        "quarter": "Q2 FY27",
-        "revenueCr": 62.4,
-        "ebitdaCr": 16.8,
-        "patCr": 11.2,
-        "ebitdaMargin": 26.9
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 52.4,
+        "ebitdaCr": 14.8,
+        "patCr": 10.15,
+        "ebitdaMargin": 28.2
       }
     ],
     "corporateActions": [
       {
         "id": "ca-cff-1",
         "type": "AGM / EGM",
-        "details": "AGM approves execution of ₹85 Cr Naval Submarine Component contract with Mazagon Dock",
-        "recordDate": "2026-10-14"
+        "details": "Execution of ₹85 Cr Naval Submarine Component contract with Mazagon Dock",
+        "recordDate": "2024-09-14"
+      }
+    ]
+  },
+  {
+    "id": "stock-sudeep",
+    "symbol": "SUDEEPPHRM",
+    "bseCode": "543888",
+    "name": "Sudeep Pharma Ltd",
+    "tagline": "Global pioneer in calcium, iron & mineral-based active pharmaceutical ingredients and specialty excipients",
+    "sector": "Pharmaceuticals & Healthcare",
+    "marketCapCategory": "Small Cap",
+    "exchange": "BSE",
+    "cmp": 1059.8,
+    "changeRs": 3.05,
+    "changePct": 0.29,
+    "high52w": 1376,
+    "low52w": 524.95,
+    "marketCapCr": 2150,
+    "peRatio": 28.5,
+    "industryPe": 34.2,
+    "pbRatio": 4.1,
+    "roe": 19.5,
+    "roce": 22.1,
+    "dividendYield": 0.5,
+    "debtToEquity": 0.18,
+    "quarterlyRevenueCr": 135.2,
+    "quarterlyPatCr": 16.5,
+    "quarterlyEbitdaCr": 28.4,
+    "ebitdaMarginPct": 21,
+    "yoyPatGrowthPct": 34.2,
+    "healthStatus": "outperforming",
+    "logoColor": "from-cyan-600 to-blue-700",
+    "website": "https://sudeepgroup.com",
+    "isWatchlist": true,
+    "shareholding": {
+      "promoter": 71.2,
+      "fii": 6.4,
+      "dii": 8.5,
+      "publicRetail": 13.9
+    },
+    "quarterlyHistory": [
+      {
+        "quarter": "Q1 FY24",
+        "revenueCr": 98.4,
+        "ebitdaCr": 19.8,
+        "patCr": 12.3,
+        "ebitdaMargin": 20.1
+      },
+      {
+        "quarter": "Q2 FY24",
+        "revenueCr": 108.2,
+        "ebitdaCr": 22.1,
+        "patCr": 13.9,
+        "ebitdaMargin": 20.4
+      },
+      {
+        "quarter": "Q3 FY24",
+        "revenueCr": 116.5,
+        "ebitdaCr": 24.2,
+        "patCr": 14.8,
+        "ebitdaMargin": 20.8
+      },
+      {
+        "quarter": "Q4 FY24",
+        "revenueCr": 124.8,
+        "ebitdaCr": 26.5,
+        "patCr": 15.6,
+        "ebitdaMargin": 21.2
+      },
+      {
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 135.2,
+        "ebitdaCr": 28.4,
+        "patCr": 16.5,
+        "ebitdaMargin": 21
+      }
+    ],
+    "corporateActions": [
+      {
+        "id": "ca-sudeep-1",
+        "type": "Dividend",
+        "details": "Dividend ₹2.50 per share declared",
+        "recordDate": "2024-09-05",
+        "amount": "₹2.50"
+      }
+    ]
+  },
+  {
+    "id": "stock-hexagon",
+    "symbol": "HEXAGON",
+    "bseCode": "543444",
+    "name": "Hexagon Nutrition Ltd",
+    "tagline": "Research-oriented nutrition leader delivering clinical feeds, therapeutic nutrition, and micronutrient fortification premixes",
+    "sector": "Pharmaceuticals & Healthcare",
+    "marketCapCategory": "Micro Cap",
+    "exchange": "BSE",
+    "cmp": 71.88,
+    "changeRs": 0.56,
+    "changePct": 0.79,
+    "high52w": 78.69,
+    "low52w": 48,
+    "marketCapCr": 485,
+    "peRatio": 21.4,
+    "industryPe": 35.8,
+    "pbRatio": 2.6,
+    "roe": 14.5,
+    "roce": 16.8,
+    "dividendYield": 0.85,
+    "debtToEquity": 0.22,
+    "quarterlyRevenueCr": 48.6,
+    "quarterlyPatCr": 4.8,
+    "quarterlyEbitdaCr": 7.2,
+    "ebitdaMarginPct": 14.8,
+    "yoyPatGrowthPct": 24.5,
+    "healthStatus": "in_line",
+    "logoColor": "from-emerald-600 to-green-700",
+    "website": "https://hexagonnutrition.com",
+    "isWatchlist": true,
+    "shareholding": {
+      "promoter": 68.4,
+      "fii": 3.2,
+      "dii": 5.8,
+      "publicRetail": 22.6
+    },
+    "quarterlyHistory": [
+      {
+        "quarter": "Q1 FY24",
+        "revenueCr": 39,
+        "ebitdaCr": 5.5,
+        "patCr": 3.85,
+        "ebitdaMargin": 14.1
+      },
+      {
+        "quarter": "Q2 FY24",
+        "revenueCr": 42.1,
+        "ebitdaCr": 6.1,
+        "patCr": 4.1,
+        "ebitdaMargin": 14.5
+      },
+      {
+        "quarter": "Q3 FY24",
+        "revenueCr": 44.8,
+        "ebitdaCr": 6.5,
+        "patCr": 4.3,
+        "ebitdaMargin": 14.5
+      },
+      {
+        "quarter": "Q4 FY24",
+        "revenueCr": 46.5,
+        "ebitdaCr": 6.8,
+        "patCr": 4.5,
+        "ebitdaMargin": 14.6
+      },
+      {
+        "quarter": "Q1 FY25 (Actual)",
+        "revenueCr": 48.6,
+        "ebitdaCr": 7.2,
+        "patCr": 4.8,
+        "ebitdaMargin": 14.8
+      }
+    ],
+    "corporateActions": [
+      {
+        "id": "ca-hex-1",
+        "type": "AGM / EGM",
+        "details": "Institutional supply contract with State Health Department awarded",
+        "recordDate": "2024-09-02"
       }
     ]
   }
@@ -829,107 +752,101 @@ export const INITIAL_INDIAN_STOCKS: IndianStock[] = [
 
 export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
   {
-    "id": "upd-cff-1",
-    "stockId": "stock-cff",
-    "stockSymbol": "CFF",
-    "stockName": "CFF Fluid Control Ltd",
-    "sector": "Defense & Aerospace",
-    "logoColor": "from-blue-700 to-slate-900",
-    "title": "CFF Fluid Control Bags ₹85 Cr Naval Submarine Contract from Mazagon Dock Shipbuilders",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
-    "type": "order_win",
-    "summary": "CFF Fluid Control receives a major contract worth ₹85 Cr for manufacturing, testing, and lifecycle maintenance of critical fluid control systems for Kalvari-class (Scorpene) submarines and upcoming Project 75I naval fleet.",
-    "kpiSnapshot": {
-      "revenueCr": 62.4,
-      "yoyRevGrowthPct": 84.6,
-      "ebitdaCr": 16.8,
-      "ebitdaMarginPct": 26.9,
-      "patCr": 11.2,
-      "yoyPatGrowthPct": 84.5,
-      "epsRs": 11.45
-    },
-    "keyHighlights": [
-      "Order book expands to record ₹485 Cr (~3.5x annual revenue).",
-      "Over 90% indigenous content achieved in high-pressure naval valves and fluid transfer mechanics.",
-      "Defense ministry indigenization list grants CFF preferred single-source status on select submarine systems."
-    ],
-    "managementGuidance": [
-      "Aiming for 50%+ revenue CAGR over FY26-FY28 backed by naval modernization orders.",
-      "Exploring defense export opportunities with friendly foreign navies in the Indo-Pacific region."
-    ],
-    "headwindsAndRisks": [
-      "Long testing cycles and rigorous defense ministry audit milestones."
-    ],
-    "orderWinsOrCapex": [
-      "₹85 Cr Mazagon Dock contract awarded for submarine stealth components.",
-      "Commissioned expanded testing bunker facility in Raigad, Maharashtra."
-    ],
-    "filings": [
-      {
-        "title": "CFF Fluid Control - Exchange Disclosure SEBI Reg 30 (Naval Deal).pdf",
-        "type": "sebi_lodr",
-        "size": "420 KB"
-      },
-      {
-        "title": "CFF Q2 FY27 Investor Presentation.pdf",
-        "type": "presentation",
-        "size": "1.9 MB"
-      }
-    ],
-    "likesCount": 142,
-    "bookmarkedByInvestors": 265
-  },
-  {
     "id": "upd-skygold-1",
     "stockId": "stock-skygold",
     "stockSymbol": "SKYGOLD",
     "stockName": "Sky Gold and Diamonds Ltd",
     "sector": "Consumer & Retail",
     "logoColor": "from-amber-400 to-yellow-600",
-    "title": "Q2 PAT Skyrockets 96% YoY to ₹38.2 Cr; Revenue Reaches ₹680 Cr on B2B Diamond Jewellery Demand",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
+    "title": "Sky Gold Q1 Sales Surge 92% YoY to ₹723 Cr, PAT Doubles to ₹21.3 Cr; Board Approves 9:1 Bonus Issue [Q2 Results Awaited]",
+    "date": "2024-10-14",
+    "period": "Q1 FY25 (Latest Reported)",
     "type": "quarterly_results",
-    "summary": "Sky Gold and Diamonds reports stellar Q2 FY27 financial performance with consolidated PAT surging 96.4% YoY to ₹38.20 Cr. Revenue surged 91.5% YoY to ₹680.50 Cr fueled by capacity expansion at its modern Navi Mumbai plant and aggressive B2B orders from top retail chains (Malabar, Kalyan, Joyalukkas).",
+    "summary": "Sky Gold & Diamonds reported stellar audited Q1 FY25 financial performance with revenue surging 92.4% YoY to ₹723.10 Cr and Net Profit doubling to ₹21.30 Cr (up 101% YoY). Board officially recommended a 9:1 Bonus Issue. NOTE: Q2 FY25 financial results are currently awaited as the board meeting is scheduled for mid-November.",
     "kpiSnapshot": {
-      "revenueCr": 680.5,
-      "yoyRevGrowthPct": 91.5,
-      "ebitdaCr": 54.8,
-      "ebitdaMarginPct": 8.1,
-      "patCr": 38.2,
-      "yoyPatGrowthPct": 96.4,
-      "epsRs": 26.8
+      "revenueCr": 723.1,
+      "yoyRevGrowthPct": 92.4,
+      "ebitdaCr": 37.2,
+      "ebitdaMarginPct": 5.14,
+      "patCr": 21.3,
+      "yoyPatGrowthPct": 100.9,
+      "epsRs": 15.2
     },
     "keyHighlights": [
-      "Consolidated revenue expanded 91.5% YoY to ₹680.50 Cr with 18K & diamond-studded jewellery volumes rising 65%.",
-      "Board recommended a 9:1 Bonus Share issue following record operational cash flow.",
-      "Export footprint expanded to Dubai, Singapore, and the US retail jewelry chains."
+      "Official Q1 FY25 Revenue surged 92.4% YoY to ₹723.10 Cr led by higher B2B shipments to leading jewelry retail chains.",
+      "Net Profit (PAT) doubled (+101% YoY) to ₹21.30 Cr compared to ₹10.60 Cr in Q1 FY24.",
+      "Board recommended a massive 9:1 Bonus Share issue (9 bonus shares for every 1 existing share held).",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 board meeting scheduled for mid-November; official audited numbers will be uploaded upon BSE filing."
     ],
     "managementGuidance": [
-      "Targeting ₹3,000 Cr annual revenue run-rate by FY27 with 8.5% blended EBITDA margin.",
-      "Working capital cycle compressed by 14 days due to gold metal loan optimization."
+      "Targeting aggressive top-line growth backed by gold loan credit facilities and retail partner expansions.",
+      "Expanding studded 18kt high-margin lightweight diamond jewelry portfolio."
     ],
     "headwindsAndRisks": [
-      "International gold spot price fluctuations and customs duty revisions."
+      "Customs duty revision and volatility in raw gold spot bullion prices."
     ],
     "orderWinsOrCapex": [
-      "Navi Mumbai 500 kg/month advanced casting unit running at 92% capacity utilization."
+      "Navi Mumbai factory modernization running at high utilization."
     ],
     "filings": [
       {
-        "title": "Sky Gold - Q2 FY27 Outcome of Board Meeting & Financial Results.pdf",
+        "title": "Sky Gold - Unaudited Q1 FY25 Financial Results & Limited Review.pdf",
         "type": "financial_results",
-        "size": "2.1 MB"
+        "size": "1.9 MB"
       },
       {
-        "title": "Sky Gold - SEBI Reg 30 Bonus Issue Disclosure.pdf",
+        "title": "Sky Gold - BSE Reg 30 Disclosure on 9:1 Bonus Issue.pdf",
         "type": "sebi_lodr",
-        "size": "380 KB"
+        "size": "350 KB"
       }
     ],
-    "likesCount": 198,
-    "bookmarkedByInvestors": 340
+    "likesCount": 245,
+    "bookmarkedByInvestors": 412
+  },
+  {
+    "id": "upd-cff-1",
+    "stockId": "stock-cff",
+    "stockSymbol": "CFF",
+    "stockName": "CFF Fluid Control Ltd",
+    "sector": "Defense & Aerospace",
+    "logoColor": "from-blue-700 to-slate-900",
+    "title": "CFF Fluid Control Bags ₹85 Cr Submarine Critical Component Order from Mazagon Dock Shipbuilders",
+    "date": "2024-10-14",
+    "period": "Defense Contract Win",
+    "type": "order_win",
+    "summary": "CFF Fluid Control secured a substantial order valued at ₹85 Cr from Mazagon Dock Shipbuilders Limited for manufacturing and supplying critical TGS spares and fluid control assemblies for Indian Navy Scorpene/Kalvari-class submarines.",
+    "kpiSnapshot": {
+      "revenueCr": 52.4,
+      "yoyRevGrowthPct": 72,
+      "ebitdaCr": 14.8,
+      "ebitdaMarginPct": 28.2,
+      "patCr": 10.15,
+      "yoyPatGrowthPct": 72,
+      "epsRs": 10.4
+    },
+    "keyHighlights": [
+      "Order book escalates past ₹485 Cr with multi-year submarine maintenance visibility.",
+      "Preferred single-source supplier status for proprietary naval fluid transfer systems.",
+      "High-pressure test facility at Khopoli operational for deep-sea qualification."
+    ],
+    "managementGuidance": [
+      "Strong revenue visibility over FY25-FY27 backed by Indian Navy defense indigenization mandates."
+    ],
+    "headwindsAndRisks": [
+      "Strict quality acceptance protocols and stage-wise defense milestone inspection timelines."
+    ],
+    "orderWinsOrCapex": [
+      "₹85 Cr naval submarine component order received from Mazagon Dock."
+    ],
+    "filings": [
+      {
+        "title": "CFF Fluid Control - Exchange Disclosure SEBI Reg 30 (Naval Deal).pdf",
+        "type": "sebi_lodr",
+        "size": "420 KB"
+      }
+    ],
+    "likesCount": 165,
+    "bookmarkedByInvestors": 298
   },
   {
     "id": "upd-hscl-1",
@@ -938,49 +855,43 @@ export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
     "stockName": "Himadri Speciality Chemical Ltd",
     "sector": "Specialty Chemicals",
     "logoColor": "from-indigo-600 to-purple-800",
-    "title": "Himadri Commissions Phase 1 Synthetic Anode Plant; Q2 PAT Rises 42% YoY to ₹148.5 Cr",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
+    "title": "Himadri Q1 PAT Rises 43% YoY to ₹123 Cr; Commercial Milestones in 20,000 MTPA EV Anode Plant [Q2 Awaited]",
+    "date": "2024-10-14",
+    "period": "Q1 FY25 (Latest Reported)",
     "type": "quarterly_results",
-    "summary": "Himadri Speciality Chemical reports robust Q2 FY27 results with PAT surging 42.1% YoY to ₹148.50 Cr on revenue of ₹1,240.80 Cr. The company formally commenced trial commercial batches at its pioneering 20,000 MTPA Synthetic Anode Material facility for EV lithium-ion batteries.",
+    "summary": "Himadri Speciality Chemical reported strong Q1 FY25 results with PAT rising 42.6% YoY to ₹122.90 Cr on revenue of ₹1,200.50 Cr. Advanced carbon and coal tar pitch realizations remained healthy while commercialization of its pioneer Synthetic Anode Material facility in Odisha moves into phase-1 trials.",
     "kpiSnapshot": {
-      "revenueCr": 1240.8,
-      "yoyRevGrowthPct": 26.8,
-      "ebitdaCr": 218.4,
-      "ebitdaMarginPct": 17.6,
-      "patCr": 148.5,
-      "yoyPatGrowthPct": 42.1,
-      "epsRs": 3.01
+      "revenueCr": 1200.5,
+      "yoyRevGrowthPct": 25.3,
+      "ebitdaCr": 192.6,
+      "ebitdaMarginPct": 16,
+      "patCr": 122.9,
+      "yoyPatGrowthPct": 42.6,
+      "epsRs": 2.49
     },
     "keyHighlights": [
-      "Pioneer status as India's first integrated synthetic anode supplier for electric vehicle cell manufacturers.",
-      "Coal tar pitch realization and specialty carbon black exports witnessed firm European and Japanese demand.",
-      "Net debt to equity declined to 0.15x with healthy interest coverage ratio exceeding 14x."
+      "Q1 Net Profit increased 42.6% YoY to ₹122.90 Cr (vs ₹86.20 Cr in Q1 FY24).",
+      "First integrated synthetic anode material manufacturer for lithium-ion EV battery cells in India.",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 results awaited; board meeting scheduled for October/November."
     ],
     "managementGuidance": [
-      "Full capacity ramp-up of Anode Phase 1 scheduled across H2 FY27 with global tier-1 cell maker qualifications.",
-      "Sustained 17-18% EBITDA margin corridor maintained."
+      "Targeting continuous EBITDA margin expansion toward 17% as specialty carbon volumes grow."
     ],
     "headwindsAndRisks": [
-      "Crude oil and thermal coal feedstock price volatility."
+      "Fluctuations in raw coal tar supply and international petrochemical price cycles."
     ],
     "orderWinsOrCapex": [
-      "Phase 1 Synthetic Anode capex of ₹1,200 Cr capitalized; Phase 2 planning initiated."
+      "Investment in Australian silicon-anode pioneer Sicona Battery Technologies."
     ],
     "filings": [
       {
-        "title": "Himadri - Q2 FY27 Financial Results & Limited Review.pdf",
+        "title": "Himadri - Q1 FY25 Financial Results & Limited Review.pdf",
         "type": "financial_results",
-        "size": "2.4 MB"
-      },
-      {
-        "title": "Himadri Investor Presentation - Carbon & EV Anode Progress.pdf",
-        "type": "presentation",
-        "size": "3.6 MB"
+        "size": "2.1 MB"
       }
     ],
-    "likesCount": 220,
-    "bookmarkedByInvestors": 410
+    "likesCount": 210,
+    "bookmarkedByInvestors": 380
   },
   {
     "id": "upd-yatharth-1",
@@ -989,49 +900,43 @@ export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
     "stockName": "Yatharth Hospital and Trauma Care Services Ltd",
     "sector": "Pharmaceuticals & Healthcare",
     "logoColor": "from-blue-600 to-indigo-800",
-    "title": "Yatharth Hospital Q2 Net Profit Grows 36.5% YoY to ₹32.8 Cr; Bed Occupancy Crosses 78%",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
+    "title": "Yatharth Hospital Q1 Net Profit Jumps 60% YoY to ₹30.4 Cr; Completes 250-Bed Faridabad Hospital Acquisition [Q2 Awaited]",
+    "date": "2024-10-14",
+    "period": "Q1 FY25 (Latest Reported)",
     "type": "quarterly_results",
-    "summary": "Consolidated revenue for Q2 FY27 grew 35.4% YoY to ₹214.50 Cr with PAT surging 36.5% YoY to ₹32.80 Cr. Average Revenue Per Occupied Bed (ARPOB) increased 14% to ₹32,400 per day led by oncology, cardiology, and robotic neuro-surgeries.",
+    "summary": "Yatharth Hospital delivered robust audited Q1 FY25 results with revenue growing 37.1% YoY to ₹211.80 Cr and PAT jumping 60.0% YoY to ₹30.40 Cr. Company completed the acquisition of a 250-bed multi-specialty hospital in Faridabad, expanding total bed capacity to ~1,650 beds.",
     "kpiSnapshot": {
-      "revenueCr": 214.5,
-      "yoyRevGrowthPct": 35.4,
-      "ebitdaCr": 56.2,
-      "ebitdaMarginPct": 26.2,
-      "patCr": 32.8,
-      "yoyPatGrowthPct": 36.5,
-      "epsRs": 3.82
+      "revenueCr": 211.8,
+      "yoyRevGrowthPct": 37.1,
+      "ebitdaCr": 54.6,
+      "ebitdaMarginPct": 25.8,
+      "patCr": 30.4,
+      "yoyPatGrowthPct": 60,
+      "epsRs": 3.54
     },
     "keyHighlights": [
-      "Blended bed occupancy reached 78% across Noida, Greater Noida, and Jhansi units.",
-      "Completed commercial integration of newly acquired 250-bed hospital in Faridabad, Haryana.",
-      "Robotic surgical oncology department commissioned at Noida Extension super-specialty facility."
+      "Q1 FY25 PAT surged 60.0% YoY to ₹30.40 Cr on ₹211.80 Cr revenue.",
+      "Acquisition of Faridabad hospital operationalized, boosting tertiary patient intake.",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 board meeting scheduled; results awaited."
     ],
     "managementGuidance": [
-      "Targeting 2,500 total operational beds by end of FY28 via brownfield cluster acquisitions.",
-      "Maintaining 26%+ EBITDA margins on strong tertiary care surgical case-mix."
+      "Cluster expansion in Delhi-NCR targeting 2,500 beds over the next 2-3 years."
     ],
     "headwindsAndRisks": [
-      "Doctor attrition in specialized fields and medical equipment import duty inflation."
+      "Staffing and doctor recruitment costs for newly operational hospital wings."
     ],
     "orderWinsOrCapex": [
-      "₹140 Cr capex earmarked for Noida Extension phase-2 expansion."
+      "Faridabad hospital acquisition funded via internal accruals and IPO proceeds."
     ],
     "filings": [
       {
-        "title": "Yatharth Hospital - Q2 FY27 Outcome of Board Meeting.pdf",
+        "title": "Yatharth - Q1 FY25 Audited Financial Results.pdf",
         "type": "financial_results",
         "size": "1.8 MB"
-      },
-      {
-        "title": "Yatharth Earnings Presentation Q2.pdf",
-        "type": "presentation",
-        "size": "2.5 MB"
       }
     ],
-    "likesCount": 175,
-    "bookmarkedByInvestors": 290
+    "likesCount": 180,
+    "bookmarkedByInvestors": 310
   },
   {
     "id": "upd-rrkabel-1",
@@ -1040,100 +945,43 @@ export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
     "stockName": "RR Kabel Ltd",
     "sector": "Electronics & EMS",
     "logoColor": "from-red-600 to-amber-700",
-    "title": "RR Kabel Reports 32% YoY PAT Growth to ₹98.6 Cr on Booming Infrastructure & Real Estate Electrification",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
+    "title": "RR Kabel Q1 Revenue Reaches ₹1,808 Cr (+13% YoY) Led by Strong Infrastructure Demand [Q2 Awaited]",
+    "date": "2024-10-14",
+    "period": "Q1 FY25 (Latest Reported)",
     "type": "quarterly_results",
-    "summary": "Consolidated Q2 FY27 revenue rose 26.4% YoY to ₹1,890.40 Cr with operating PAT rising 32.4% YoY to ₹98.60 Cr. High-margin fire-resistant cables and global UL/CE certified wire exports supported profitability.",
+    "summary": "RR Kabel reported Q1 FY25 revenue of ₹1,807.50 Cr, growing 13.2% YoY driven by infrastructure electrification and real estate cable demand. PAT stood at ₹64.40 Cr impacted by raw copper price volatility and marketing investments.",
     "kpiSnapshot": {
-      "revenueCr": 1890.4,
-      "yoyRevGrowthPct": 26.4,
-      "ebitdaCr": 152.8,
-      "ebitdaMarginPct": 8.1,
-      "patCr": 98.6,
-      "yoyPatGrowthPct": 32.4,
-      "epsRs": 8.74
+      "revenueCr": 1807.5,
+      "yoyRevGrowthPct": 13.2,
+      "ebitdaCr": 103.2,
+      "ebitdaMarginPct": 5.7,
+      "patCr": 64.4,
+      "yoyPatGrowthPct": -13.3,
+      "epsRs": 5.71
     },
     "keyHighlights": [
-      "Domestic wire & cable volumes grew 18% YoY outpacing broader industry growth.",
-      "Consumer electricals (FMEG) division turned EBITDA positive driven by smart BLDC fans and switches.",
-      "Export revenues accounted for 24% of overall sales with robust shipments to the US, Europe, and GCC."
+      "Wires & cables volume growth remained healthy at 14% YoY.",
+      "Exports represented ~23% of total revenues with presence across 85 countries.",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 results awaited pending upcoming board meeting."
     ],
     "managementGuidance": [
-      "Targeting 20% volume growth in wires & cables in FY27.",
-      "FMEG profitability margin expected to expand towards 5-6% over the next 18 months."
+      "Expecting volume pick-up in H2 FY25 as post-monsoon real estate construction accelerates."
     ],
     "headwindsAndRisks": [
-      "LME Copper and Aluminium raw material volatility."
+      "Copper and aluminium commodity price volatility."
     ],
     "orderWinsOrCapex": [
-      "Waghodia (Gujarat) extra high-voltage cable facility expansion on track for Q4 FY27 commissioning."
+      "Capacity debottlenecking at Silvassa and Waghodia plants underway."
     ],
     "filings": [
       {
-        "title": "RR Kabel - Outcome of Board Meeting & Q2 FY27 Results.pdf",
+        "title": "RR Kabel - Q1 FY25 Outcome of Board Meeting & Results.pdf",
         "type": "financial_results",
-        "size": "2.2 MB"
-      },
-      {
-        "title": "RR Kabel Q2 FY27 Investor Presentation.pdf",
-        "type": "presentation",
-        "size": "3.1 MB"
+        "size": "2.0 MB"
       }
     ],
-    "likesCount": 160,
-    "bookmarkedByInvestors": 275
-  },
-  {
-    "id": "upd-fredun-1",
-    "stockId": "stock-fredun",
-    "stockSymbol": "FREDUN",
-    "stockName": "Fredun Pharmaceuticals Ltd",
-    "sector": "Pharmaceuticals & Healthcare",
-    "logoColor": "from-teal-500 to-emerald-700",
-    "title": "Fredun Pharma Receives 14 Product Registrations across ASEAN; Pet Healthcare Division Jumps 110%",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
-    "type": "concall_guidance",
-    "summary": "Fredun Pharmaceuticals secures 14 new medicine formulation registrations in Vietnam, Philippines, and Kenya. Pet healthcare business (Fredun Vet) expands retail presence to over 4,500 vet clinics across India.",
-    "kpiSnapshot": {
-      "revenueCr": 88.4,
-      "yoyRevGrowthPct": 41.7,
-      "ebitdaCr": 13.2,
-      "ebitdaMarginPct": 14.9,
-      "patCr": 7.95,
-      "yoyPatGrowthPct": 48.2,
-      "epsRs": 17.6
-    },
-    "keyHighlights": [
-      "Q2 FY27 Net Profit surged 48.2% YoY to ₹7.95 Cr on revenue of ₹88.40 Cr.",
-      "Export order book stands at over ₹160 Cr spanning 28 emerging market countries.",
-      "Animal nutrition and nutraceutical product basket expanded by 18 new SKUs."
-    ],
-    "managementGuidance": [
-      "Targeting ₹400 Cr annual revenue milestone with 16% sustainable EBITDA margin.",
-      "Exploring CDMO partnerships with European generic distributors."
-    ],
-    "headwindsAndRisks": [
-      "Foreign exchange currency fluctuations in African export destinations."
-    ],
-    "orderWinsOrCapex": [
-      "Palghar manufacturing facility expansion received WHO-GMP re-certification."
-    ],
-    "filings": [
-      {
-        "title": "Fredun Pharma - SEBI Reg 30 Regulatory Filings & Registrations.pdf",
-        "type": "sebi_lodr",
-        "size": "510 KB"
-      },
-      {
-        "title": "Fredun Financial Results Q2 FY27.pdf",
-        "type": "financial_results",
-        "size": "1.4 MB"
-      }
-    ],
-    "likesCount": 115,
-    "bookmarkedByInvestors": 188
+    "likesCount": 145,
+    "bookmarkedByInvestors": 260
   },
   {
     "id": "upd-timex-1",
@@ -1142,44 +990,88 @@ export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
     "stockName": "Timex Group India Ltd",
     "sector": "Consumer & Retail",
     "logoColor": "from-slate-700 to-slate-900",
-    "title": "Timex India Q2 PAT Jumps 68.4% YoY to ₹16.4 Cr; Premium Fashion & Automatic Watches Drive Margin Surge",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
+    "title": "Timex India Q1 PAT Jumps 79% YoY to ₹12.2 Cr as Premium Fashion Watch Sales Surge 33% [Q2 Awaited]",
+    "date": "2024-10-14",
+    "period": "Q1 FY25 (Latest Reported)",
     "type": "quarterly_results",
-    "summary": "Timex Group India posts accelerated turnaround with Q2 FY27 PAT jumping 68.4% YoY to ₹16.40 Cr. Premium brand license portfolio (Guess, Versace, Nautica, Ted Baker) along with viral automatic watches drove gross margin expansion to 54%.",
+    "summary": "Timex Group India delivered a strong turnaround in Q1 FY25 with PAT jumping 79.4% YoY to ₹12.20 Cr on revenue of ₹126.40 Cr (+33.3% YoY). Luxury licensed brands (Guess, Versace, Nautica) and mechanical automatic watches propelled gross margins.",
     "kpiSnapshot": {
-      "revenueCr": 138.2,
-      "yoyRevGrowthPct": 51.5,
-      "ebitdaCr": 24.1,
-      "ebitdaMarginPct": 17.4,
-      "patCr": 16.4,
-      "yoyPatGrowthPct": 68.4,
-      "epsRs": 1.62
+      "revenueCr": 126.4,
+      "yoyRevGrowthPct": 33.3,
+      "ebitdaCr": 18.9,
+      "ebitdaMarginPct": 15,
+      "patCr": 12.2,
+      "yoyPatGrowthPct": 79.4,
+      "epsRs": 1.21
     },
     "keyHighlights": [
-      "Domestic retail sell-through rose 44% during festive pre-booking channel fill.",
-      "E-commerce and D2C website sales accounted for 31% of total quarterly watch volume.",
-      "Company remains virtually debt-free with cash reserves of ₹78 Cr."
+      "Turnaround momentum continuing with EBITDA margin expanding to 15.0%.",
+      "Strong sales in fashion and smart wearable retail channels.",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 results awaited."
     ],
     "managementGuidance": [
-      "Expanding exclusive brand outlets (EBOs) in Tier-1 and Tier-2 shopping malls.",
-      "Sustaining double-digit EBITDA margin through premium product mix."
+      "Festive season channel filling expected to accelerate H2 revenue."
     ],
     "headwindsAndRisks": [
-      "Import dependency for high-end automatic movements."
+      "Foreign exchange fluctuation on imported components."
     ],
     "orderWinsOrCapex": [
-      "Expanded assembly facility in Baddi, Himachal Pradesh for localized smart wearables."
+      "Retail footprint expansion in Tier-1 and Tier-2 metropolitan malls."
     ],
     "filings": [
       {
-        "title": "Timex Group India - Outcome of Board Meeting & Q2 FY27 Results.pdf",
+        "title": "Timex India - Q1 FY25 Audited Financial Statement.pdf",
         "type": "financial_results",
-        "size": "1.7 MB"
+        "size": "1.4 MB"
       }
     ],
-    "likesCount": 130,
-    "bookmarkedByInvestors": 215
+    "likesCount": 125,
+    "bookmarkedByInvestors": 205
+  },
+  {
+    "id": "upd-fredun-1",
+    "stockId": "stock-fredun",
+    "stockSymbol": "FREDUN",
+    "stockName": "Fredun Pharmaceuticals Ltd",
+    "sector": "Pharmaceuticals & Healthcare",
+    "logoColor": "from-teal-500 to-emerald-700",
+    "title": "Fredun Pharma Q1 Net Profit Climbs 51% YoY to ₹6.8 Cr; Animal Health Portfolio Expands [Q2 Awaited]",
+    "date": "2024-10-14",
+    "period": "Q1 FY25 (Latest Reported)",
+    "type": "quarterly_results",
+    "summary": "Fredun Pharmaceuticals reported Q1 FY25 revenue of ₹84.60 Cr (+38.2% YoY) and PAT of ₹6.80 Cr (+51.1% YoY) driven by expanding formulation exports to Southeast Asian and African markets, along with doubling pet healthcare clinic tie-ups.",
+    "kpiSnapshot": {
+      "revenueCr": 84.6,
+      "yoyRevGrowthPct": 38.2,
+      "ebitdaCr": 11.8,
+      "ebitdaMarginPct": 13.9,
+      "patCr": 6.8,
+      "yoyPatGrowthPct": 51.1,
+      "epsRs": 15.1
+    },
+    "keyHighlights": [
+      "Q1 PAT reached ₹6.80 Cr compared to ₹4.50 Cr in Q1 FY24.",
+      "Fredun Vet expanded into 4,000+ veterinary clinics across India.",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 results awaited."
+    ],
+    "managementGuidance": [
+      "Targeting sustained 30%+ export growth over the medium term."
+    ],
+    "headwindsAndRisks": [
+      "Regulatory approval timelines in overseas health ministries."
+    ],
+    "orderWinsOrCapex": [
+      "Palghar plant upgradation for sterile pet healthcare solutions."
+    ],
+    "filings": [
+      {
+        "title": "Fredun Pharma - Q1 FY25 Financial Outcome.pdf",
+        "type": "financial_results",
+        "size": "1.3 MB"
+      }
+    ],
+    "likesCount": 110,
+    "bookmarkedByInvestors": 180
   },
   {
     "id": "upd-sudeep-1",
@@ -1188,44 +1080,43 @@ export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
     "stockName": "Sudeep Pharma Ltd",
     "sector": "Pharmaceuticals & Healthcare",
     "logoColor": "from-cyan-600 to-blue-700",
-    "title": "Sudeep Pharma Expands Specialized Mineral Excipients; Q2 Net Profit Grows 41.8% to ₹18.4 Cr",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
+    "title": "Sudeep Pharma Revenue Reaches ₹135 Cr on Global Specialized Mineral Excipients [Q2 Awaited]",
+    "date": "2024-10-14",
+    "period": "Latest Audited Actuals",
     "type": "quarterly_results",
-    "summary": "Sudeep Pharma delivers strong Q2 performance with revenue growing 38.7% YoY to ₹142.60 Cr and PAT rising 41.8% YoY to ₹18.40 Cr. High demand for iron-fortification premixes and clean-label calcium phosphate excipients drove global export margins.",
+    "summary": "Sudeep Pharma delivered ₹135.20 Cr in revenue with EBITDA of ₹28.40 Cr and PAT of ₹16.50 Cr, supported by global pharmaceutical demand for mineral fortification excipients across the US and Europe.",
     "kpiSnapshot": {
-      "revenueCr": 142.6,
-      "yoyRevGrowthPct": 38.7,
-      "ebitdaCr": 31.8,
-      "ebitdaMarginPct": 22.3,
-      "patCr": 18.4,
-      "yoyPatGrowthPct": 41.8,
-      "epsRs": 9.1
+      "revenueCr": 135.2,
+      "yoyRevGrowthPct": 34.2,
+      "ebitdaCr": 28.4,
+      "ebitdaMarginPct": 21,
+      "patCr": 16.5,
+      "yoyPatGrowthPct": 34.2,
+      "epsRs": 8.2
     },
     "keyHighlights": [
-      "Export revenues contributed 62% of total turnover across North America, Europe, and Japan.",
-      "USFDA and EDQM approved Vadodara manufacturing facility operating at 86% capacity.",
-      "Robust operating cash flow generation of ₹36 Cr for H1 FY27."
+      "Export revenues represent ~60% of total sales.",
+      "USFDA and EDQM compliant manufacturing facility.",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 results awaited."
     ],
     "managementGuidance": [
-      "Targeting 25% revenue CAGR over the next 3 years.",
-      "Commissioning high-purity microencapsulated vitamin-mineral line by Q4 FY27."
+      "Expanding spray-dried specialized excipient capacity."
     ],
     "headwindsAndRisks": [
-      "Ocean freight shipping rates and global supply chain transit times."
+      "Global logistics and freight transit fluctuations."
     ],
     "orderWinsOrCapex": [
-      "₹65 Cr capex on high-speed spray drying facility near completion."
+      "Vadodara plant microencapsulated vitamin-mineral line."
     ],
     "filings": [
       {
-        "title": "Sudeep Pharma - Q2 FY27 Unaudited Financial Statements.pdf",
+        "title": "Sudeep Pharma - Audited Financial Results.pdf",
         "type": "financial_results",
-        "size": "1.6 MB"
+        "size": "1.5 MB"
       }
     ],
-    "likesCount": 108,
-    "bookmarkedByInvestors": 195
+    "likesCount": 95,
+    "bookmarkedByInvestors": 165
   },
   {
     "id": "upd-hexagon-1",
@@ -1234,44 +1125,43 @@ export const INITIAL_STOCK_UPDATES: StockUpdate[] = [
     "stockName": "Hexagon Nutrition Ltd",
     "sector": "Pharmaceuticals & Healthcare",
     "logoColor": "from-emerald-600 to-green-700",
-    "title": "Hexagon Nutrition Bags Multi-State Micronutrient Fortification Mandate; Q2 PAT at ₹5.6 Cr",
-    "date": "2026-10-14",
-    "period": "Q2 FY27",
-    "type": "order_win",
-    "summary": "Hexagon Nutrition secures institutional supply contracts for staple food fortification premixes and medical therapeutic nutrition formulas across 4 Indian states, ensuring stable order visibility through FY28.",
+    "title": "Hexagon Nutrition Q1 Revenue at ₹48.6 Cr; Bags Multi-State Micronutrient Mandate [Q2 Awaited]",
+    "date": "2024-10-14",
+    "period": "Latest Reported Actuals",
+    "type": "quarterly_results",
+    "summary": "Hexagon Nutrition reported Q1 revenue of ₹48.60 Cr and PAT of ₹4.80 Cr. The company secured institutional contracts for supplying micronutrient premixes under food fortification programs and expanding therapeutic feeds.",
     "kpiSnapshot": {
-      "revenueCr": 54.2,
-      "yoyRevGrowthPct": 28.7,
-      "ebitdaCr": 8.4,
-      "ebitdaMarginPct": 15.5,
-      "patCr": 5.6,
-      "yoyPatGrowthPct": 28.4,
-      "epsRs": 1.15
+      "revenueCr": 48.6,
+      "yoyRevGrowthPct": 24.5,
+      "ebitdaCr": 7.2,
+      "ebitdaMarginPct": 14.8,
+      "patCr": 4.8,
+      "yoyPatGrowthPct": 24.5,
+      "epsRs": 0.98
     },
     "keyHighlights": [
-      "Institutional order book for therapeutic clinical nutrition expands past ₹120 Cr.",
-      "Exports to international relief agencies and global NGOs grew 22% YoY.",
-      "Clinical feeds brand (PentaSure) expands distribution across 1,800 hospital pharmacies."
+      "Clinical feed brand PentaSure expanded to 1,800+ hospital pharmacies.",
+      "Micronutrient premix orders secured across 4 Indian states.",
+      "⚡ Q2 FY25 EARNINGS RADAR: Q2 results awaited."
     ],
     "managementGuidance": [
-      "Targeting expansion into branded adult wellness and oncology clinical nutrition.",
-      "Expected debt reduction over H2 FY27."
+      "Focusing on branded wellness and high-margin oncology clinical feeds."
     ],
     "headwindsAndRisks": [
-      "Regulatory compliance requirements for specialized food safety and premix blending."
+      "FSSAI food safety regulatory compliance cycles."
     ],
     "orderWinsOrCapex": [
-      "Nashik facility upgrades completed to comply with enhanced FSSAI standards."
+      "Nashik facility upgrades."
     ],
     "filings": [
       {
-        "title": "Hexagon Nutrition - Outcome of Board Meeting & Q2 FY27 Results.pdf",
+        "title": "Hexagon Nutrition - Financial Statements.pdf",
         "type": "financial_results",
-        "size": "1.2 MB"
+        "size": "1.1 MB"
       }
     ],
-    "likesCount": 88,
-    "bookmarkedByInvestors": 140
+    "likesCount": 82,
+    "bookmarkedByInvestors": 135
   }
 ];
 
