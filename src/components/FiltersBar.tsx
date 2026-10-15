@@ -13,6 +13,7 @@ const SECTORS: ('All' | IndianSector)[] = [
   'Green Energy & Infra',
   'Consumer & Retail',
   'Pharmaceuticals & Healthcare',
+  'Specialty Chemicals',
   'Conglomerate & Energy'
 ];
 

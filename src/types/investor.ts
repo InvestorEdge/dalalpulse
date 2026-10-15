@@ -9,6 +9,7 @@ export type IndianSector =
   | 'Electronics & EMS'
   | 'Pharmaceuticals & Healthcare'
   | 'Green Energy & Infra'
+  | 'Specialty Chemicals'
   | 'Conglomerate & Energy';
 
 export type Exchange = 'NSE' | 'BSE' | 'NSE & BSE';
