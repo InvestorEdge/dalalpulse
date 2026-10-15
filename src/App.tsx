@@ -16,7 +16,6 @@ import {
   CheckCircle2
 } from 'lucide-react';
 import { InvestorProvider, useInvestor } from './context/InvestorContext';
-import { MarketIndicesTicker } from './components/MarketIndicesTicker';
 import { Navbar } from './components/Navbar';
 import { FiltersBar } from './components/FiltersBar';
 import { CompanyCard } from './components/CompanyCard';
@@ -373,7 +372,6 @@ export function App() {
   return (
     <InvestorProvider>
       <div className="min-h-screen bg-[#070b13] text-slate-100 flex flex-col font-sans selection:bg-amber-500/30 selection:text-amber-200">
-        <MarketIndicesTicker />
         <Navbar />
         <div className="flex-1">
           <DashboardContent />
