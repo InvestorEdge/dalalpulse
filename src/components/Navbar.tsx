@@ -8,7 +8,6 @@ import {
   FileDown, 
   RotateCcw,
   UserCheck,
-  TrendingUp,
   SlidersHorizontal,
   Bookmark,
   Lock,
@@ -43,9 +42,8 @@ export const Navbar: React.FC = () => {
   const watchlistCount = stocks.filter(s => s.isWatchlist).length;
 
   const navItems: { id: ActiveTab; label: string; icon: React.ComponentType<{ className?: string }>; badge?: number }[] = [
-    { id: 'overview', label: 'Market Overview', icon: TrendingUp },
-    { id: 'updates', label: 'Quarterly Results & Filings', icon: FileSpreadsheet, badge: updates.length },
     { id: 'stocks', label: 'Tracked Equities', icon: Building2, badge: stocks.length },
+    { id: 'updates', label: 'Quarterly Results & Filings', icon: FileSpreadsheet, badge: updates.length },
     { id: 'concalls', label: 'Concall Guidance & Outlook', icon: Mic },
     { id: 'peers', label: 'Peer Valuation Matrix', icon: BarChart3 },
     { id: 'fii_dii', label: 'FII & DII Activity', icon: Landmark }

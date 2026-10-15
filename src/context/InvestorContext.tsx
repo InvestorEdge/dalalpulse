@@ -236,7 +236,7 @@ export const InvestorProvider: React.FC<{ children: ReactNode }> = ({ children }
     } catch {}
   };
 
-  const [activeTab, setActiveTab] = useState<ActiveTab>('overview');
+  const [activeTab, setActiveTab] = useState<ActiveTab>('stocks');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedSector, setSelectedSector] = useState('All');
   const [selectedMarketCap, setSelectedMarketCap] = useState('All');

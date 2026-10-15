@@ -161,5 +161,5 @@ export interface InstitutionalFlowDay {
 }
 
 export type ViewRole = 'analyst_investor' | 'management_ir';
-export type ActiveTab = 'overview' | 'updates' | 'stocks' | 'concalls' | 'peers' | 'fii_dii';
+export type ActiveTab = 'stocks' | 'updates' | 'concalls' | 'peers' | 'fii_dii' | 'overview';
 

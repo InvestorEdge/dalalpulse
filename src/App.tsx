@@ -139,84 +139,48 @@ const DashboardContent: React.FC = () => {
         )}
       </div>
 
-      {/* 1. OVERVIEW TAB */}
-      {activeTab === 'overview' && (
-        <section className="space-y-8">
+      {/* 1. TRACKED EQUITIES DIRECTORY (FIRST PLACE) */}
+      {activeTab === 'stocks' && (
+        <section className="space-y-6">
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-2">
+            <div>
+              <h2 className="text-2xl font-extrabold text-white tracking-tight flex items-center gap-2.5">
+                <Building2 className="w-6 h-6 text-emerald-400" />
+                Tracked Indian Equities Directory (NSE & BSE)
+              </h2>
+              <p className="text-xs sm:text-sm text-slate-400">
+                Live prices, fundamental valuation multiples, promoter/FII/DII shareholding patterns, 52-week ranges, and order books.
+              </p>
+            </div>
+
+            {isOwnerAuthenticated && viewRole === 'management_ir' && (
+              <button
+                onClick={() => setIsNewStockModalOpen(true)}
+                className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-400 text-slate-950 transition-all self-start sm:self-auto shadow-md shadow-amber-500/20"
+              >
+                <Building2 className="w-4 h-4" />
+                <span>+ Track Stock</span>
+              </button>
+            )}
+          </div>
+
           <FiltersBar />
 
-          {/* Section: Latest Quarterly Results & Filings */}
-          <div>
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <h2 className="text-lg font-bold text-white flex items-center gap-2">
-                  <FileSpreadsheet className="w-4 h-4 text-amber-400" />
-                  Latest Corporate Results & SEBI Disclosures
-                </h2>
-                <p className="text-xs text-slate-400">Audited quarterly earnings, concall commentary, and major contract wins</p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+            {filteredStocks.map(stock => (
+              <CompanyCard key={stock.id} stock={stock} />
+            ))}
+
+            {filteredStocks.length === 0 && (
+              <div className="col-span-full text-center py-16 glass-panel rounded-3xl text-slate-400 space-y-3">
+                <Building2 className="w-8 h-8 text-slate-600 mx-auto" />
+                <h3 className="font-bold text-slate-200">No stocks found</h3>
+                <p className="text-xs text-slate-500">
+                  Try adjusting your search query, sector, or market-cap filters.
+                </p>
               </div>
-
-              <button
-                onClick={() => setActiveTab('updates')}
-                className="text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1"
-              >
-                <span>View all filings ({updates.length})</span>
-                <ArrowUpRight className="w-3.5 h-3.5" />
-              </button>
-            </div>
-
-            <div className="space-y-4">
-              {filteredUpdates.slice(0, 6).map(update => (
-                <UpdateCard key={update.id} update={update} />
-              ))}
-
-              {filteredUpdates.length === 0 && (
-                <div className="text-center py-12 glass-panel rounded-2xl text-slate-500">
-                  <p>No corporate updates matching current filters.</p>
-                </div>
-              )}
-            </div>
+            )}
           </div>
-
-          {/* Section: Stock Holdings Grid */}
-          <div>
-            <div className="flex items-center justify-between mb-4">
-              <div>
-                <h2 className="text-lg font-bold text-white flex items-center gap-2">
-                  <Building2 className="w-4 h-4 text-emerald-400" />
-                  Indian Listed Equities Under Coverage
-                </h2>
-                <p className="text-xs text-slate-400">Live prices, P/E multiples, 52-week trading band, and order pipelines</p>
-              </div>
-
-              <div className="flex items-center gap-3">
-                {isOwnerAuthenticated && viewRole === 'management_ir' && (
-                  <>
-                    <button
-                      onClick={() => setIsNewStockModalOpen(true)}
-                      className="text-xs font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1"
-                    >
-                      <span>+ Track New Stock</span>
-                    </button>
-                    <span>•</span>
-                  </>
-                )}
-                <button
-                  onClick={() => setActiveTab('stocks')}
-                  className="text-xs font-semibold text-slate-300 hover:text-white flex items-center gap-1"
-                >
-                  <span>See all ({stocks.length})</span>
-                  <ArrowUpRight className="w-3.5 h-3.5" />
-                </button>
-              </div>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {filteredStocks.map(stock => (
-                <CompanyCard key={stock.id} stock={stock} />
-              ))}
-            </div>
-          </div>
-
         </section>
       )}
 
@@ -385,49 +349,7 @@ const DashboardContent: React.FC = () => {
         </section>
       )}
 
-      {/* 3. TRACKED EQUITIES DIRECTORY */}
-      {activeTab === 'stocks' && (
-        <section className="space-y-6">
-          <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-2">
-            <div>
-              <h2 className="text-2xl font-extrabold text-white tracking-tight">
-                NSE & BSE Listed Equities Directory
-              </h2>
-              <p className="text-xs sm:text-sm text-slate-400">
-                Fundamental ratios, shareholding patterns (Promoter, FII, DII), 52-week ranges, and order books.
-              </p>
-            </div>
 
-            {isOwnerAuthenticated && viewRole === 'management_ir' && (
-              <button
-                onClick={() => setIsNewStockModalOpen(true)}
-                className="flex items-center gap-1.5 px-3.5 py-2 rounded-xl text-xs font-bold bg-amber-500 hover:bg-amber-400 text-slate-950 transition-all self-start sm:self-auto"
-              >
-                <Building2 className="w-4 h-4" />
-                <span>+ Track Stock</span>
-              </button>
-            )}
-          </div>
-
-          <FiltersBar />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-            {filteredStocks.map(stock => (
-              <CompanyCard key={stock.id} stock={stock} />
-            ))}
-
-            {filteredStocks.length === 0 && (
-              <div className="col-span-full text-center py-16 glass-panel rounded-3xl text-slate-400 space-y-3">
-                <Building2 className="w-8 h-8 text-slate-600 mx-auto" />
-                <h3 className="font-bold text-slate-200">No stocks found</h3>
-                <p className="text-xs text-slate-500">
-                  Try adjusting your search query, sector, or market-cap filters.
-                </p>
-              </div>
-            )}
-          </div>
-        </section>
-      )}
 
       {/* 4. CONCALL GUIDANCE HUB */}
       {activeTab === 'concalls' && <InvestorAsksBoard />}
