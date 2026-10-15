@@ -22,7 +22,6 @@ import { FiltersBar } from './components/FiltersBar';
 import { CompanyCard } from './components/CompanyCard';
 import { UpdateCard } from './components/UpdateCard';
 import { InvestorAsksBoard } from './components/InvestorAsksBoard';
-import { CompanyComparison } from './components/CompanyComparison';
 import { CompanyDetailModal } from './components/CompanyDetailModal';
 import { NewUpdateModal } from './components/NewUpdateModal';
 import { NewCompanyModal } from './components/NewCompanyModal';
@@ -354,10 +353,7 @@ const DashboardContent: React.FC = () => {
       {/* 4. CONCALL GUIDANCE HUB */}
       {activeTab === 'concalls' && <InvestorAsksBoard />}
 
-      {/* 5. PEER MATRIX */}
-      {activeTab === 'peers' && <CompanyComparison />}
-
-      {/* 6. FII & DII INSTITUTIONAL FLOWS */}
+      {/* 4. FII & DII INSTITUTIONAL FLOWS */}
       {activeTab === 'fii_dii' && <FiiDiiActivityBoard />}
 
       {/* Modals */}

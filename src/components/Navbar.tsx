@@ -3,7 +3,6 @@ import {
   Building2, 
   FileSpreadsheet, 
   Mic, 
-  BarChart3, 
   PlusCircle, 
   FileDown, 
   RotateCcw,
@@ -45,7 +44,6 @@ export const Navbar: React.FC = () => {
     { id: 'stocks', label: 'Tracked Equities', icon: Building2, badge: stocks.length },
     { id: 'updates', label: 'Quarterly Results & Filings', icon: FileSpreadsheet, badge: updates.length },
     { id: 'concalls', label: 'Concall Guidance & Outlook', icon: Mic },
-    { id: 'peers', label: 'Peer Valuation Matrix', icon: BarChart3 },
     { id: 'fii_dii', label: 'FII & DII Activity', icon: Landmark }
   ];
 
